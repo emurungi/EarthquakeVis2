@@ -1,62 +1,17 @@
-This repo contains a [Quarto book](https://quarto.org/docs/books/) template for the EDAV final project.
+# EarthquakeVis
+Repository For Small Data Visualisation Project - Earthquake Visualisation for a visualisation project from a previous class.
 
-## Follow these instructions carefully
+## Summary of Visualisation Project
 
-*If you have any difficulties or have feedback of any kind, please [file an issue](https://github.com/jtr13/quarto-edav-template/issues) or ask questions in the [Discussions](https://github.com/jtr13/quarto-edav-template/discussions) section.*
+Earthquakes have an indelible impact on individuals, communities, and societies. The catastrophic consequences of seismic events are vividly exemplified by the earthquake that struck Haiti on January 12, 2010, with a magnitude of 7.0. This devastating quake not only caused widespread destruction of infrastructure but also claimed the lives of over 230,000 people, displacing more than 1.5 million residents.
 
-[Video tutorial](https://www.youtube.com/watch?v=emgS2JI4jCk) (walkthrough of steps below)
+The unfortunate reality is that earthquakes are inherently difficult to predict. However, the wealth of available data on seismic activities enables the identification of trends and the drawing of conclusions with a high degree of certainty. Despite the unpredictable nature of earthquakes, our motivation behind this project is to explore where they occur most frequently, both geographically and in populous cities, as well as identifying patterns related to their occurrence over time.
 
-### Copy this template (GitHub)
+## Tools Used
 
-- [ ] 1. Click the green "Use this template" button above and choose "Create a new repository". If you don't see the "Use this template" option, log in to GitHub. DO NOT FORK THE REPO. Choose a descriptive name for your repo, such as "federalbudget" or "AIDSdeaths". (If you change your topic before you do any work, delete the repo and start over.)
+*   This repo contains a [Quarto book](https://quarto.org/docs/books/). We use Quarto due to its ease of use for editing R markdown code
 
-- [ ] 2. Leave the setting for viewing the repo as "Public". (Otherwise, we will not be able to access your rendered book.)
-
-- [ ] 3. In the Description field, write "Source files for EDAV final project" then click "Create repository".
-
-### Set up Pages (GitHub)
-
-- [ ] 1. You've now left the template page and are viewing your new repo on GitHub. On the home page, click Settings. Click the "Pages" section on the left. In the Build and Deployment section, set Source to "Deploy from a branch" (Classic Pages experience) and Branch to main with /docs folder. Click Save.
-
-- [ ] 2. Click the little gear button near "About" on the top right side of the home page of the repo and check the "Use your Github Pages website" box under "Website". Click "Save changes". Test the link and you should see a web site with a stick figure on it. It may take a few minutes to build so if it's not working do a few more steps and then come back to check.
-
-### Copy the repo link (GitHub)
-
-- [ ] 1. Click the green Code button, choose "HTTPS" and copy the link below. It should have the format: https&#xfeff;://github.com/[USERNAME]/[REPONAME].git
-
-### Clone the repo (RStudio)
-
-- [ ] 1. Clone your new repo with *File, New Project..., Version Control, Git* in RStudio. You will need to paste the link from the previous step in the Repository URL box. If it's not automatically populated, enter the repo name in the "Project directory name:" box. Choose the location of the project.
-
-### Edit `_quarto.yml` (RStudio)
-
-Tip: From the file pane in RStudio, open `README.md`, which contains these instructions. You can delete steps as you complete them.
-
-- [ ] 1. Change the all caps info in the `title:`, `author:` and `repo-url` fields in the YAML (top) section of `_quarto.yml` to your info. (Note: it's very important to maintain the indenting structure in this file precisely as is -- be careful!)
-
-### Render the book (RStudio)
-
-- [ ] 1. If you haven't already, click "Help" "Check for Updates" to make sure you have the latest version of RStudio (and thus have Quarto installed.)
-
-- [ ] 2. Render the web site locally by clicking the "Build" tap on the right and then "Render Book".
-
-- [ ] 3. Use `browseURL("docs/index.html")` to view your book locally (or just open `docs/index.html` in a browser).
-
-- [ ] 4. If it looks good, commit and push all changed files to GitHub. 
-
-(You will need to repeat steps 2 and 4 every time you wish to update the book on GitHub Pages.)
-
-### Update README (GitHub or RStudio)
-
-- [ ] 1. Delete the content of this **README** and add a short description of your project in its place. If you're working locally, be sure to commit and push the changes to GitHub.
-
-### Optional
-
-- [ ] 1. Choose a theme from [https://bootswatch.com/](https://bootswatch.com/) and replace "cosmo" in `_quarto.yml` with your prefered theme.
-
-### Additional features
-
-Please consult the official guide to **quarto** book websites: [https://quarto.org/docs/books/](https://quarto.org/docs/books/)
-
-
-
+*   The content of this project is displayed on a [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) website which allows us to host rendered HTML files directly from this repository.
+    * The website is displayed at the link [https://emurungi.github.io/EarthquakeVis](https://emurungi.github.io/EarthquakeVis/)
+    
+* To edit the R code as well as convert the Rmd to HTML, I use R Studio as a code editor and also both VS Code and the Terminal to interact with Git
