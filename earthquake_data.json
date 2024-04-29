@@ -1,0 +1,7907 @@
+[
+  {
+    "state": "MA",
+    "decade": 1630,
+    "average_earthquakes": 6
+  },
+  {
+    "state": "MA",
+    "decade": 1640,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "MA",
+    "decade": 1650,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "MA",
+    "decade": 1660,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "MA",
+    "decade": 1720,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "MA",
+    "decade": 1730,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "MA",
+    "decade": 1740,
+    "average_earthquakes": 6
+  },
+  {
+    "state": "MA",
+    "decade": 1750,
+    "average_earthquakes": 7
+  },
+  {
+    "state": "MA",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MA",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MA",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MA",
+    "decade": 1790,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "MA",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MA",
+    "decade": 1810,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "MA",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MA",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MA",
+    "decade": 1840,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "MA",
+    "decade": 1850,
+    "average_earthquakes": 6
+  },
+  {
+    "state": "MA",
+    "decade": 1860,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "MA",
+    "decade": 1870,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "MA",
+    "decade": 1880,
+    "average_earthquakes": 36
+  },
+  {
+    "state": "MA",
+    "decade": 1890,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "MA",
+    "decade": 1900,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "MA",
+    "decade": 1910,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "MA",
+    "decade": 1920,
+    "average_earthquakes": 89
+  },
+  {
+    "state": "MA",
+    "decade": 1930,
+    "average_earthquakes": 128
+  },
+  {
+    "state": "MA",
+    "decade": 1940,
+    "average_earthquakes": 169
+  },
+  {
+    "state": "MA",
+    "decade": 1950,
+    "average_earthquakes": 66
+  },
+  {
+    "state": "MA",
+    "decade": 1960,
+    "average_earthquakes": 103
+  },
+  {
+    "state": "MA",
+    "decade": 1970,
+    "average_earthquakes": 196
+  },
+  {
+    "state": "MA",
+    "decade": 1980,
+    "average_earthquakes": 589
+  },
+  {
+    "state": "DE",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DE",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DE",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DE",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DE",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DE",
+    "decade": 1730,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "DE",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DE",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DE",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DE",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DE",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DE",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DE",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DE",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DE",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DE",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DE",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DE",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DE",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DE",
+    "decade": 1870,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "DE",
+    "decade": 1880,
+    "average_earthquakes": 6
+  },
+  {
+    "state": "DE",
+    "decade": 1890,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DE",
+    "decade": 1900,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "DE",
+    "decade": 1910,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DE",
+    "decade": 1920,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "DE",
+    "decade": 1930,
+    "average_earthquakes": 40
+  },
+  {
+    "state": "DE",
+    "decade": 1940,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "DE",
+    "decade": 1950,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DE",
+    "decade": 1960,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "DE",
+    "decade": 1970,
+    "average_earthquakes": 15
+  },
+  {
+    "state": "DE",
+    "decade": 1980,
+    "average_earthquakes": 32
+  },
+  {
+    "state": "MD",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MD",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MD",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MD",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MD",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MD",
+    "decade": 1730,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "MD",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MD",
+    "decade": 1750,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "MD",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MD",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MD",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MD",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MD",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MD",
+    "decade": 1810,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "MD",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MD",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MD",
+    "decade": 1840,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "MD",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MD",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MD",
+    "decade": 1870,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "MD",
+    "decade": 1880,
+    "average_earthquakes": 28
+  },
+  {
+    "state": "MD",
+    "decade": 1890,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MD",
+    "decade": 1900,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "MD",
+    "decade": 1910,
+    "average_earthquakes": 11
+  },
+  {
+    "state": "MD",
+    "decade": 1920,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "MD",
+    "decade": 1930,
+    "average_earthquakes": 41
+  },
+  {
+    "state": "MD",
+    "decade": 1940,
+    "average_earthquakes": 6
+  },
+  {
+    "state": "MD",
+    "decade": 1950,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MD",
+    "decade": 1960,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "MD",
+    "decade": 1970,
+    "average_earthquakes": 30
+  },
+  {
+    "state": "MD",
+    "decade": 1980,
+    "average_earthquakes": 146
+  },
+  {
+    "state": "NH",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NH",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NH",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NH",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NH",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NH",
+    "decade": 1730,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "NH",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NH",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NH",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NH",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NH",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NH",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NH",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NH",
+    "decade": 1810,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "NH",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NH",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NH",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NH",
+    "decade": 1850,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "NH",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NH",
+    "decade": 1870,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "NH",
+    "decade": 1880,
+    "average_earthquakes": 25
+  },
+  {
+    "state": "NH",
+    "decade": 1890,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "NH",
+    "decade": 1900,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "NH",
+    "decade": 1910,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NH",
+    "decade": 1920,
+    "average_earthquakes": 93
+  },
+  {
+    "state": "NH",
+    "decade": 1930,
+    "average_earthquakes": 92
+  },
+  {
+    "state": "NH",
+    "decade": 1940,
+    "average_earthquakes": 126
+  },
+  {
+    "state": "NH",
+    "decade": 1950,
+    "average_earthquakes": 35
+  },
+  {
+    "state": "NH",
+    "decade": 1960,
+    "average_earthquakes": 80
+  },
+  {
+    "state": "NH",
+    "decade": 1970,
+    "average_earthquakes": 204
+  },
+  {
+    "state": "NH",
+    "decade": 1980,
+    "average_earthquakes": 523
+  },
+  {
+    "state": "NY",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NY",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NY",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NY",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NY",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NY",
+    "decade": 1730,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "NY",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NY",
+    "decade": 1750,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "NY",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NY",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NY",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NY",
+    "decade": 1790,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "NY",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NY",
+    "decade": 1810,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "NY",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NY",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NY",
+    "decade": 1840,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "NY",
+    "decade": 1850,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "NY",
+    "decade": 1860,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "NY",
+    "decade": 1870,
+    "average_earthquakes": 18
+  },
+  {
+    "state": "NY",
+    "decade": 1880,
+    "average_earthquakes": 69
+  },
+  {
+    "state": "NY",
+    "decade": 1890,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "NY",
+    "decade": 1900,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "NY",
+    "decade": 1910,
+    "average_earthquakes": 35
+  },
+  {
+    "state": "NY",
+    "decade": 1920,
+    "average_earthquakes": 303
+  },
+  {
+    "state": "NY",
+    "decade": 1930,
+    "average_earthquakes": 393
+  },
+  {
+    "state": "NY",
+    "decade": 1940,
+    "average_earthquakes": 162
+  },
+  {
+    "state": "NY",
+    "decade": 1950,
+    "average_earthquakes": 91
+  },
+  {
+    "state": "NY",
+    "decade": 1960,
+    "average_earthquakes": 122
+  },
+  {
+    "state": "NY",
+    "decade": 1970,
+    "average_earthquakes": 223
+  },
+  {
+    "state": "NY",
+    "decade": 1980,
+    "average_earthquakes": 1734
+  },
+  {
+    "state": "PA",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "PA",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "PA",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "PA",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "PA",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "PA",
+    "decade": 1730,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "PA",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "PA",
+    "decade": 1750,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "PA",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "PA",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "PA",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "PA",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "PA",
+    "decade": 1800,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "PA",
+    "decade": 1810,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "PA",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "PA",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "PA",
+    "decade": 1840,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "PA",
+    "decade": 1850,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "PA",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "PA",
+    "decade": 1870,
+    "average_earthquakes": 8
+  },
+  {
+    "state": "PA",
+    "decade": 1880,
+    "average_earthquakes": 42
+  },
+  {
+    "state": "PA",
+    "decade": 1890,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "PA",
+    "decade": 1900,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "PA",
+    "decade": 1910,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "PA",
+    "decade": 1920,
+    "average_earthquakes": 49
+  },
+  {
+    "state": "PA",
+    "decade": 1930,
+    "average_earthquakes": 201
+  },
+  {
+    "state": "PA",
+    "decade": 1940,
+    "average_earthquakes": 70
+  },
+  {
+    "state": "PA",
+    "decade": 1950,
+    "average_earthquakes": 13
+  },
+  {
+    "state": "PA",
+    "decade": 1960,
+    "average_earthquakes": 13
+  },
+  {
+    "state": "PA",
+    "decade": 1970,
+    "average_earthquakes": 257
+  },
+  {
+    "state": "PA",
+    "decade": 1980,
+    "average_earthquakes": 638
+  },
+  {
+    "state": "ME",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ME",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ME",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ME",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ME",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ME",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ME",
+    "decade": 1740,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "ME",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ME",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ME",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ME",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ME",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ME",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ME",
+    "decade": 1810,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "ME",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ME",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ME",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ME",
+    "decade": 1850,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "ME",
+    "decade": 1860,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "ME",
+    "decade": 1870,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "ME",
+    "decade": 1880,
+    "average_earthquakes": 20
+  },
+  {
+    "state": "ME",
+    "decade": 1890,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "ME",
+    "decade": 1900,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "ME",
+    "decade": 1910,
+    "average_earthquakes": 11
+  },
+  {
+    "state": "ME",
+    "decade": 1920,
+    "average_earthquakes": 110
+  },
+  {
+    "state": "ME",
+    "decade": 1930,
+    "average_earthquakes": 140
+  },
+  {
+    "state": "ME",
+    "decade": 1940,
+    "average_earthquakes": 206
+  },
+  {
+    "state": "ME",
+    "decade": 1950,
+    "average_earthquakes": 93
+  },
+  {
+    "state": "ME",
+    "decade": 1960,
+    "average_earthquakes": 41
+  },
+  {
+    "state": "ME",
+    "decade": 1970,
+    "average_earthquakes": 602
+  },
+  {
+    "state": "ME",
+    "decade": 1980,
+    "average_earthquakes": 954
+  },
+  {
+    "state": "CA",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CA",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CA",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CA",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CA",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CA",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CA",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CA",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CA",
+    "decade": 1760,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "CA",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CA",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CA",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CA",
+    "decade": 1800,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "CA",
+    "decade": 1810,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "CA",
+    "decade": 1820,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "CA",
+    "decade": 1830,
+    "average_earthquakes": 10
+  },
+  {
+    "state": "CA",
+    "decade": 1840,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "CA",
+    "decade": 1850,
+    "average_earthquakes": 43
+  },
+  {
+    "state": "CA",
+    "decade": 1860,
+    "average_earthquakes": 114
+  },
+  {
+    "state": "CA",
+    "decade": 1870,
+    "average_earthquakes": 14
+  },
+  {
+    "state": "CA",
+    "decade": 1880,
+    "average_earthquakes": 50
+  },
+  {
+    "state": "CA",
+    "decade": 1890,
+    "average_earthquakes": 134
+  },
+  {
+    "state": "CA",
+    "decade": 1900,
+    "average_earthquakes": 1520
+  },
+  {
+    "state": "CA",
+    "decade": 1910,
+    "average_earthquakes": 489
+  },
+  {
+    "state": "CA",
+    "decade": 1920,
+    "average_earthquakes": 781
+  },
+  {
+    "state": "CA",
+    "decade": 1930,
+    "average_earthquakes": 9197
+  },
+  {
+    "state": "CA",
+    "decade": 1940,
+    "average_earthquakes": 10755
+  },
+  {
+    "state": "CA",
+    "decade": 1950,
+    "average_earthquakes": 14484
+  },
+  {
+    "state": "CA",
+    "decade": 1960,
+    "average_earthquakes": 12641
+  },
+  {
+    "state": "CA",
+    "decade": 1970,
+    "average_earthquakes": 9715
+  },
+  {
+    "state": "CA",
+    "decade": 1980,
+    "average_earthquakes": 9504
+  },
+  {
+    "state": "VA",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VA",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VA",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VA",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VA",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VA",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VA",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VA",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VA",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VA",
+    "decade": 1770,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "VA",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VA",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VA",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VA",
+    "decade": 1810,
+    "average_earthquakes": 6
+  },
+  {
+    "state": "VA",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VA",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VA",
+    "decade": 1840,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "VA",
+    "decade": 1850,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "VA",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VA",
+    "decade": 1870,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "VA",
+    "decade": 1880,
+    "average_earthquakes": 53
+  },
+  {
+    "state": "VA",
+    "decade": 1890,
+    "average_earthquakes": 18
+  },
+  {
+    "state": "VA",
+    "decade": 1900,
+    "average_earthquakes": 9
+  },
+  {
+    "state": "VA",
+    "decade": 1910,
+    "average_earthquakes": 28
+  },
+  {
+    "state": "VA",
+    "decade": 1920,
+    "average_earthquakes": 21
+  },
+  {
+    "state": "VA",
+    "decade": 1930,
+    "average_earthquakes": 22
+  },
+  {
+    "state": "VA",
+    "decade": 1940,
+    "average_earthquakes": 8
+  },
+  {
+    "state": "VA",
+    "decade": 1950,
+    "average_earthquakes": 43
+  },
+  {
+    "state": "VA",
+    "decade": 1960,
+    "average_earthquakes": 130
+  },
+  {
+    "state": "VA",
+    "decade": 1970,
+    "average_earthquakes": 150
+  },
+  {
+    "state": "VA",
+    "decade": 1980,
+    "average_earthquakes": 196
+  },
+  {
+    "state": "AK",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AK",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AK",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AK",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AK",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AK",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AK",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AK",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AK",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AK",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AK",
+    "decade": 1780,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "AK",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AK",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AK",
+    "decade": 1810,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "AK",
+    "decade": 1820,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "AK",
+    "decade": 1830,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "AK",
+    "decade": 1840,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "AK",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AK",
+    "decade": 1860,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "AK",
+    "decade": 1870,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "AK",
+    "decade": 1880,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "AK",
+    "decade": 1890,
+    "average_earthquakes": 19
+  },
+  {
+    "state": "AK",
+    "decade": 1900,
+    "average_earthquakes": 27
+  },
+  {
+    "state": "AK",
+    "decade": 1910,
+    "average_earthquakes": 29
+  },
+  {
+    "state": "AK",
+    "decade": 1920,
+    "average_earthquakes": 91
+  },
+  {
+    "state": "AK",
+    "decade": 1930,
+    "average_earthquakes": 152
+  },
+  {
+    "state": "AK",
+    "decade": 1940,
+    "average_earthquakes": 61
+  },
+  {
+    "state": "AK",
+    "decade": 1950,
+    "average_earthquakes": 376
+  },
+  {
+    "state": "AK",
+    "decade": 1960,
+    "average_earthquakes": 907
+  },
+  {
+    "state": "AK",
+    "decade": 1970,
+    "average_earthquakes": 1407
+  },
+  {
+    "state": "AK",
+    "decade": 1980,
+    "average_earthquakes": 1265
+  },
+  {
+    "state": "AR",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AR",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AR",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AR",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AR",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AR",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AR",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AR",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AR",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AR",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AR",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AR",
+    "decade": 1790,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "AR",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AR",
+    "decade": 1810,
+    "average_earthquakes": 8
+  },
+  {
+    "state": "AR",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AR",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AR",
+    "decade": 1840,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "AR",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AR",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AR",
+    "decade": 1870,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "AR",
+    "decade": 1880,
+    "average_earthquakes": 12
+  },
+  {
+    "state": "AR",
+    "decade": 1890,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AR",
+    "decade": 1900,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "AR",
+    "decade": 1910,
+    "average_earthquakes": 42
+  },
+  {
+    "state": "AR",
+    "decade": 1920,
+    "average_earthquakes": 40
+  },
+  {
+    "state": "AR",
+    "decade": 1930,
+    "average_earthquakes": 42
+  },
+  {
+    "state": "AR",
+    "decade": 1940,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AR",
+    "decade": 1950,
+    "average_earthquakes": 99
+  },
+  {
+    "state": "AR",
+    "decade": 1960,
+    "average_earthquakes": 276
+  },
+  {
+    "state": "AR",
+    "decade": 1970,
+    "average_earthquakes": 587
+  },
+  {
+    "state": "AR",
+    "decade": 1980,
+    "average_earthquakes": 368
+  },
+  {
+    "state": "CT",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CT",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CT",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CT",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CT",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CT",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CT",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CT",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CT",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CT",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CT",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CT",
+    "decade": 1790,
+    "average_earthquakes": 6
+  },
+  {
+    "state": "CT",
+    "decade": 1800,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "CT",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CT",
+    "decade": 1820,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "CT",
+    "decade": 1830,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "CT",
+    "decade": 1840,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "CT",
+    "decade": 1850,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "CT",
+    "decade": 1860,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "CT",
+    "decade": 1870,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "CT",
+    "decade": 1880,
+    "average_earthquakes": 18
+  },
+  {
+    "state": "CT",
+    "decade": 1890,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CT",
+    "decade": 1900,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "CT",
+    "decade": 1910,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "CT",
+    "decade": 1920,
+    "average_earthquakes": 42
+  },
+  {
+    "state": "CT",
+    "decade": 1930,
+    "average_earthquakes": 58
+  },
+  {
+    "state": "CT",
+    "decade": 1940,
+    "average_earthquakes": 31
+  },
+  {
+    "state": "CT",
+    "decade": 1950,
+    "average_earthquakes": 31
+  },
+  {
+    "state": "CT",
+    "decade": 1960,
+    "average_earthquakes": 6
+  },
+  {
+    "state": "CT",
+    "decade": 1970,
+    "average_earthquakes": 11
+  },
+  {
+    "state": "CT",
+    "decade": 1980,
+    "average_earthquakes": 354
+  },
+  {
+    "state": "IL",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IL",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IL",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IL",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IL",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IL",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IL",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IL",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IL",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IL",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IL",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IL",
+    "decade": 1790,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "IL",
+    "decade": 1800,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "IL",
+    "decade": 1810,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "IL",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IL",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IL",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IL",
+    "decade": 1850,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "IL",
+    "decade": 1860,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "IL",
+    "decade": 1870,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "IL",
+    "decade": 1880,
+    "average_earthquakes": 51
+  },
+  {
+    "state": "IL",
+    "decade": 1890,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "IL",
+    "decade": 1900,
+    "average_earthquakes": 22
+  },
+  {
+    "state": "IL",
+    "decade": 1910,
+    "average_earthquakes": 44
+  },
+  {
+    "state": "IL",
+    "decade": 1920,
+    "average_earthquakes": 47
+  },
+  {
+    "state": "IL",
+    "decade": 1930,
+    "average_earthquakes": 95
+  },
+  {
+    "state": "IL",
+    "decade": 1940,
+    "average_earthquakes": 30
+  },
+  {
+    "state": "IL",
+    "decade": 1950,
+    "average_earthquakes": 434
+  },
+  {
+    "state": "IL",
+    "decade": 1960,
+    "average_earthquakes": 651
+  },
+  {
+    "state": "IL",
+    "decade": 1970,
+    "average_earthquakes": 1290
+  },
+  {
+    "state": "IL",
+    "decade": 1980,
+    "average_earthquakes": 481
+  },
+  {
+    "state": "KY",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KY",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KY",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KY",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KY",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KY",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KY",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KY",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KY",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KY",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KY",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KY",
+    "decade": 1790,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "KY",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KY",
+    "decade": 1810,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "KY",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KY",
+    "decade": 1830,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "KY",
+    "decade": 1840,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "KY",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KY",
+    "decade": 1860,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "KY",
+    "decade": 1870,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "KY",
+    "decade": 1880,
+    "average_earthquakes": 62
+  },
+  {
+    "state": "KY",
+    "decade": 1890,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "KY",
+    "decade": 1900,
+    "average_earthquakes": 11
+  },
+  {
+    "state": "KY",
+    "decade": 1910,
+    "average_earthquakes": 26
+  },
+  {
+    "state": "KY",
+    "decade": 1920,
+    "average_earthquakes": 125
+  },
+  {
+    "state": "KY",
+    "decade": 1930,
+    "average_earthquakes": 52
+  },
+  {
+    "state": "KY",
+    "decade": 1940,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "KY",
+    "decade": 1950,
+    "average_earthquakes": 70
+  },
+  {
+    "state": "KY",
+    "decade": 1960,
+    "average_earthquakes": 265
+  },
+  {
+    "state": "KY",
+    "decade": 1970,
+    "average_earthquakes": 397
+  },
+  {
+    "state": "KY",
+    "decade": 1980,
+    "average_earthquakes": 621
+  },
+  {
+    "state": "TN",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TN",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TN",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TN",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TN",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TN",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TN",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TN",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TN",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TN",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TN",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TN",
+    "decade": 1790,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "TN",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TN",
+    "decade": 1810,
+    "average_earthquakes": 16
+  },
+  {
+    "state": "TN",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TN",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TN",
+    "decade": 1840,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "TN",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TN",
+    "decade": 1860,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "TN",
+    "decade": 1870,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "TN",
+    "decade": 1880,
+    "average_earthquakes": 37
+  },
+  {
+    "state": "TN",
+    "decade": 1890,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "TN",
+    "decade": 1900,
+    "average_earthquakes": 7
+  },
+  {
+    "state": "TN",
+    "decade": 1910,
+    "average_earthquakes": 51
+  },
+  {
+    "state": "TN",
+    "decade": 1920,
+    "average_earthquakes": 67
+  },
+  {
+    "state": "TN",
+    "decade": 1930,
+    "average_earthquakes": 52
+  },
+  {
+    "state": "TN",
+    "decade": 1940,
+    "average_earthquakes": 16
+  },
+  {
+    "state": "TN",
+    "decade": 1950,
+    "average_earthquakes": 271
+  },
+  {
+    "state": "TN",
+    "decade": 1960,
+    "average_earthquakes": 264
+  },
+  {
+    "state": "TN",
+    "decade": 1970,
+    "average_earthquakes": 584
+  },
+  {
+    "state": "TN",
+    "decade": 1980,
+    "average_earthquakes": 278
+  },
+  {
+    "state": "IN",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IN",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IN",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IN",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IN",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IN",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IN",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IN",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IN",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IN",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IN",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IN",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IN",
+    "decade": 1800,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "IN",
+    "decade": 1810,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "IN",
+    "decade": 1820,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "IN",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IN",
+    "decade": 1840,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "IN",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IN",
+    "decade": 1860,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "IN",
+    "decade": 1870,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "IN",
+    "decade": 1880,
+    "average_earthquakes": 53
+  },
+  {
+    "state": "IN",
+    "decade": 1890,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "IN",
+    "decade": 1900,
+    "average_earthquakes": 19
+  },
+  {
+    "state": "IN",
+    "decade": 1910,
+    "average_earthquakes": 12
+  },
+  {
+    "state": "IN",
+    "decade": 1920,
+    "average_earthquakes": 35
+  },
+  {
+    "state": "IN",
+    "decade": 1930,
+    "average_earthquakes": 119
+  },
+  {
+    "state": "IN",
+    "decade": 1940,
+    "average_earthquakes": 42
+  },
+  {
+    "state": "IN",
+    "decade": 1950,
+    "average_earthquakes": 83
+  },
+  {
+    "state": "IN",
+    "decade": 1960,
+    "average_earthquakes": 154
+  },
+  {
+    "state": "IN",
+    "decade": 1970,
+    "average_earthquakes": 552
+  },
+  {
+    "state": "IN",
+    "decade": 1980,
+    "average_earthquakes": 218
+  },
+  {
+    "state": "AL",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AL",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AL",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AL",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AL",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AL",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AL",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AL",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AL",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AL",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AL",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AL",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AL",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AL",
+    "decade": 1810,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "AL",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AL",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AL",
+    "decade": 1840,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "AL",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AL",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AL",
+    "decade": 1870,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "AL",
+    "decade": 1880,
+    "average_earthquakes": 27
+  },
+  {
+    "state": "AL",
+    "decade": 1890,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AL",
+    "decade": 1900,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "AL",
+    "decade": 1910,
+    "average_earthquakes": 45
+  },
+  {
+    "state": "AL",
+    "decade": 1920,
+    "average_earthquakes": 13
+  },
+  {
+    "state": "AL",
+    "decade": 1930,
+    "average_earthquakes": 40
+  },
+  {
+    "state": "AL",
+    "decade": 1940,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AL",
+    "decade": 1950,
+    "average_earthquakes": 67
+  },
+  {
+    "state": "AL",
+    "decade": 1960,
+    "average_earthquakes": 31
+  },
+  {
+    "state": "AL",
+    "decade": 1970,
+    "average_earthquakes": 146
+  },
+  {
+    "state": "AL",
+    "decade": 1980,
+    "average_earthquakes": 15
+  },
+  {
+    "state": "DC",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DC",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DC",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DC",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DC",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DC",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DC",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DC",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DC",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DC",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DC",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DC",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DC",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DC",
+    "decade": 1810,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "DC",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DC",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DC",
+    "decade": 1840,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "DC",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DC",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DC",
+    "decade": 1870,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DC",
+    "decade": 1880,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "DC",
+    "decade": 1890,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DC",
+    "decade": 1900,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DC",
+    "decade": 1910,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "DC",
+    "decade": 1920,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "DC",
+    "decade": 1930,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "DC",
+    "decade": 1940,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "DC",
+    "decade": 1950,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DC",
+    "decade": 1960,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DC",
+    "decade": 1970,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "DC",
+    "decade": 1980,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "GA",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "GA",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "GA",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "GA",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "GA",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "GA",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "GA",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "GA",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "GA",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "GA",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "GA",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "GA",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "GA",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "GA",
+    "decade": 1810,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "GA",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "GA",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "GA",
+    "decade": 1840,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "GA",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "GA",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "GA",
+    "decade": 1870,
+    "average_earthquakes": 7
+  },
+  {
+    "state": "GA",
+    "decade": 1880,
+    "average_earthquakes": 71
+  },
+  {
+    "state": "GA",
+    "decade": 1890,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "GA",
+    "decade": 1900,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "GA",
+    "decade": 1910,
+    "average_earthquakes": 52
+  },
+  {
+    "state": "GA",
+    "decade": 1920,
+    "average_earthquakes": 17
+  },
+  {
+    "state": "GA",
+    "decade": 1930,
+    "average_earthquakes": 16
+  },
+  {
+    "state": "GA",
+    "decade": 1940,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "GA",
+    "decade": 1950,
+    "average_earthquakes": 24
+  },
+  {
+    "state": "GA",
+    "decade": 1960,
+    "average_earthquakes": 69
+  },
+  {
+    "state": "GA",
+    "decade": 1970,
+    "average_earthquakes": 196
+  },
+  {
+    "state": "GA",
+    "decade": 1980,
+    "average_earthquakes": 38
+  },
+  {
+    "state": "LA",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "LA",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "LA",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "LA",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "LA",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "LA",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "LA",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "LA",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "LA",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "LA",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "LA",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "LA",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "LA",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "LA",
+    "decade": 1810,
+    "average_earthquakes": 7
+  },
+  {
+    "state": "LA",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "LA",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "LA",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "LA",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "LA",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "LA",
+    "decade": 1870,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "LA",
+    "decade": 1880,
+    "average_earthquakes": 9
+  },
+  {
+    "state": "LA",
+    "decade": 1890,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "LA",
+    "decade": 1900,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "LA",
+    "decade": 1910,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "LA",
+    "decade": 1920,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "LA",
+    "decade": 1930,
+    "average_earthquakes": 43
+  },
+  {
+    "state": "LA",
+    "decade": 1940,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "LA",
+    "decade": 1950,
+    "average_earthquakes": 8
+  },
+  {
+    "state": "LA",
+    "decade": 1960,
+    "average_earthquakes": 8
+  },
+  {
+    "state": "LA",
+    "decade": 1970,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "LA",
+    "decade": 1980,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "MO",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MO",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MO",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MO",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MO",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MO",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MO",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MO",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MO",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MO",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MO",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MO",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MO",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MO",
+    "decade": 1810,
+    "average_earthquakes": 15
+  },
+  {
+    "state": "MO",
+    "decade": 1820,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "MO",
+    "decade": 1830,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "MO",
+    "decade": 1840,
+    "average_earthquakes": 8
+  },
+  {
+    "state": "MO",
+    "decade": 1850,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "MO",
+    "decade": 1860,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "MO",
+    "decade": 1870,
+    "average_earthquakes": 7
+  },
+  {
+    "state": "MO",
+    "decade": 1880,
+    "average_earthquakes": 33
+  },
+  {
+    "state": "MO",
+    "decade": 1890,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "MO",
+    "decade": 1900,
+    "average_earthquakes": 16
+  },
+  {
+    "state": "MO",
+    "decade": 1910,
+    "average_earthquakes": 54
+  },
+  {
+    "state": "MO",
+    "decade": 1920,
+    "average_earthquakes": 25
+  },
+  {
+    "state": "MO",
+    "decade": 1930,
+    "average_earthquakes": 95
+  },
+  {
+    "state": "MO",
+    "decade": 1940,
+    "average_earthquakes": 16
+  },
+  {
+    "state": "MO",
+    "decade": 1950,
+    "average_earthquakes": 459
+  },
+  {
+    "state": "MO",
+    "decade": 1960,
+    "average_earthquakes": 989
+  },
+  {
+    "state": "MO",
+    "decade": 1970,
+    "average_earthquakes": 513
+  },
+  {
+    "state": "MO",
+    "decade": 1980,
+    "average_earthquakes": 135
+  },
+  {
+    "state": "MS",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MS",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MS",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MS",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MS",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MS",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MS",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MS",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MS",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MS",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MS",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MS",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MS",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MS",
+    "decade": 1810,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "MS",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MS",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MS",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MS",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MS",
+    "decade": 1860,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "MS",
+    "decade": 1870,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MS",
+    "decade": 1880,
+    "average_earthquakes": 15
+  },
+  {
+    "state": "MS",
+    "decade": 1890,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "MS",
+    "decade": 1900,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "MS",
+    "decade": 1910,
+    "average_earthquakes": 12
+  },
+  {
+    "state": "MS",
+    "decade": 1920,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "MS",
+    "decade": 1930,
+    "average_earthquakes": 75
+  },
+  {
+    "state": "MS",
+    "decade": 1940,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MS",
+    "decade": 1950,
+    "average_earthquakes": 8
+  },
+  {
+    "state": "MS",
+    "decade": 1960,
+    "average_earthquakes": 72
+  },
+  {
+    "state": "MS",
+    "decade": 1970,
+    "average_earthquakes": 165
+  },
+  {
+    "state": "MS",
+    "decade": 1980,
+    "average_earthquakes": 7
+  },
+  {
+    "state": "NC",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NC",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NC",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NC",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NC",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NC",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NC",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NC",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NC",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NC",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NC",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NC",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NC",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NC",
+    "decade": 1810,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "NC",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NC",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NC",
+    "decade": 1840,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "NC",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NC",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NC",
+    "decade": 1870,
+    "average_earthquakes": 19
+  },
+  {
+    "state": "NC",
+    "decade": 1880,
+    "average_earthquakes": 63
+  },
+  {
+    "state": "NC",
+    "decade": 1890,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "NC",
+    "decade": 1900,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NC",
+    "decade": 1910,
+    "average_earthquakes": 56
+  },
+  {
+    "state": "NC",
+    "decade": 1920,
+    "average_earthquakes": 36
+  },
+  {
+    "state": "NC",
+    "decade": 1930,
+    "average_earthquakes": 23
+  },
+  {
+    "state": "NC",
+    "decade": 1940,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "NC",
+    "decade": 1950,
+    "average_earthquakes": 180
+  },
+  {
+    "state": "NC",
+    "decade": 1960,
+    "average_earthquakes": 77
+  },
+  {
+    "state": "NC",
+    "decade": 1970,
+    "average_earthquakes": 253
+  },
+  {
+    "state": "NC",
+    "decade": 1980,
+    "average_earthquakes": 130
+  },
+  {
+    "state": "OH",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OH",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OH",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OH",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OH",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OH",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OH",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OH",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OH",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OH",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OH",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OH",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OH",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OH",
+    "decade": 1810,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "OH",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OH",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OH",
+    "decade": 1840,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "OH",
+    "decade": 1850,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "OH",
+    "decade": 1860,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "OH",
+    "decade": 1870,
+    "average_earthquakes": 6
+  },
+  {
+    "state": "OH",
+    "decade": 1880,
+    "average_earthquakes": 64
+  },
+  {
+    "state": "OH",
+    "decade": 1890,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "OH",
+    "decade": 1900,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "OH",
+    "decade": 1910,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "OH",
+    "decade": 1920,
+    "average_earthquakes": 39
+  },
+  {
+    "state": "OH",
+    "decade": 1930,
+    "average_earthquakes": 367
+  },
+  {
+    "state": "OH",
+    "decade": 1940,
+    "average_earthquakes": 65
+  },
+  {
+    "state": "OH",
+    "decade": 1950,
+    "average_earthquakes": 70
+  },
+  {
+    "state": "OH",
+    "decade": 1960,
+    "average_earthquakes": 52
+  },
+  {
+    "state": "OH",
+    "decade": 1970,
+    "average_earthquakes": 74
+  },
+  {
+    "state": "OH",
+    "decade": 1980,
+    "average_earthquakes": 339
+  },
+  {
+    "state": "SC",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SC",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SC",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SC",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SC",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SC",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SC",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SC",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SC",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SC",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SC",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SC",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SC",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SC",
+    "decade": 1810,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "SC",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SC",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SC",
+    "decade": 1840,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "SC",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SC",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SC",
+    "decade": 1870,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "SC",
+    "decade": 1880,
+    "average_earthquakes": 148
+  },
+  {
+    "state": "SC",
+    "decade": 1890,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "SC",
+    "decade": 1900,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "SC",
+    "decade": 1910,
+    "average_earthquakes": 31
+  },
+  {
+    "state": "SC",
+    "decade": 1920,
+    "average_earthquakes": 64
+  },
+  {
+    "state": "SC",
+    "decade": 1930,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "SC",
+    "decade": 1940,
+    "average_earthquakes": 17
+  },
+  {
+    "state": "SC",
+    "decade": 1950,
+    "average_earthquakes": 88
+  },
+  {
+    "state": "SC",
+    "decade": 1960,
+    "average_earthquakes": 76
+  },
+  {
+    "state": "SC",
+    "decade": 1970,
+    "average_earthquakes": 498
+  },
+  {
+    "state": "SC",
+    "decade": 1980,
+    "average_earthquakes": 46
+  },
+  {
+    "state": "IA",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IA",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IA",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IA",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IA",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IA",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IA",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IA",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IA",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IA",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IA",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IA",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IA",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IA",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IA",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IA",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IA",
+    "decade": 1840,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "IA",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IA",
+    "decade": 1860,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "IA",
+    "decade": 1870,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "IA",
+    "decade": 1880,
+    "average_earthquakes": 21
+  },
+  {
+    "state": "IA",
+    "decade": 1890,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "IA",
+    "decade": 1900,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "IA",
+    "decade": 1910,
+    "average_earthquakes": 8
+  },
+  {
+    "state": "IA",
+    "decade": 1920,
+    "average_earthquakes": 6
+  },
+  {
+    "state": "IA",
+    "decade": 1930,
+    "average_earthquakes": 93
+  },
+  {
+    "state": "IA",
+    "decade": 1940,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "IA",
+    "decade": 1950,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "IA",
+    "decade": 1960,
+    "average_earthquakes": 53
+  },
+  {
+    "state": "IA",
+    "decade": 1970,
+    "average_earthquakes": 165
+  },
+  {
+    "state": "IA",
+    "decade": 1980,
+    "average_earthquakes": 11
+  },
+  {
+    "state": "WA",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WA",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WA",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WA",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WA",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WA",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WA",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WA",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WA",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WA",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WA",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WA",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WA",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WA",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WA",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WA",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WA",
+    "decade": 1840,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "WA",
+    "decade": 1850,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "WA",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WA",
+    "decade": 1870,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WA",
+    "decade": 1880,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "WA",
+    "decade": 1890,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WA",
+    "decade": 1900,
+    "average_earthquakes": 8
+  },
+  {
+    "state": "WA",
+    "decade": 1910,
+    "average_earthquakes": 20
+  },
+  {
+    "state": "WA",
+    "decade": 1920,
+    "average_earthquakes": 34
+  },
+  {
+    "state": "WA",
+    "decade": 1930,
+    "average_earthquakes": 646
+  },
+  {
+    "state": "WA",
+    "decade": 1940,
+    "average_earthquakes": 1338
+  },
+  {
+    "state": "WA",
+    "decade": 1950,
+    "average_earthquakes": 2002
+  },
+  {
+    "state": "WA",
+    "decade": 1960,
+    "average_earthquakes": 2947
+  },
+  {
+    "state": "WA",
+    "decade": 1970,
+    "average_earthquakes": 869
+  },
+  {
+    "state": "WA",
+    "decade": 1980,
+    "average_earthquakes": 1008
+  },
+  {
+    "state": "WV",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WV",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WV",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WV",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WV",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WV",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WV",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WV",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WV",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WV",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WV",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WV",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WV",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WV",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WV",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WV",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WV",
+    "decade": 1840,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "WV",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WV",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WV",
+    "decade": 1870,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "WV",
+    "decade": 1880,
+    "average_earthquakes": 28
+  },
+  {
+    "state": "WV",
+    "decade": 1890,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "WV",
+    "decade": 1900,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WV",
+    "decade": 1910,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "WV",
+    "decade": 1920,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "WV",
+    "decade": 1930,
+    "average_earthquakes": 29
+  },
+  {
+    "state": "WV",
+    "decade": 1940,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "WV",
+    "decade": 1950,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "WV",
+    "decade": 1960,
+    "average_earthquakes": 64
+  },
+  {
+    "state": "WV",
+    "decade": 1970,
+    "average_earthquakes": 51
+  },
+  {
+    "state": "WV",
+    "decade": 1980,
+    "average_earthquakes": 96
+  },
+  {
+    "state": "AZ",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AZ",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AZ",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AZ",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AZ",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AZ",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AZ",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AZ",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AZ",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AZ",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AZ",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AZ",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AZ",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AZ",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AZ",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AZ",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AZ",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AZ",
+    "decade": 1850,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "AZ",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "AZ",
+    "decade": 1870,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "AZ",
+    "decade": 1880,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "AZ",
+    "decade": 1890,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "AZ",
+    "decade": 1900,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "AZ",
+    "decade": 1910,
+    "average_earthquakes": 40
+  },
+  {
+    "state": "AZ",
+    "decade": 1920,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "AZ",
+    "decade": 1930,
+    "average_earthquakes": 187
+  },
+  {
+    "state": "AZ",
+    "decade": 1940,
+    "average_earthquakes": 145
+  },
+  {
+    "state": "AZ",
+    "decade": 1950,
+    "average_earthquakes": 274
+  },
+  {
+    "state": "AZ",
+    "decade": 1960,
+    "average_earthquakes": 178
+  },
+  {
+    "state": "AZ",
+    "decade": 1970,
+    "average_earthquakes": 155
+  },
+  {
+    "state": "AZ",
+    "decade": 1980,
+    "average_earthquakes": 47
+  },
+  {
+    "state": "UT",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "UT",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "UT",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "UT",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "UT",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "UT",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "UT",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "UT",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "UT",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "UT",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "UT",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "UT",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "UT",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "UT",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "UT",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "UT",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "UT",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "UT",
+    "decade": 1850,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "UT",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "UT",
+    "decade": 1870,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "UT",
+    "decade": 1880,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "UT",
+    "decade": 1890,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "UT",
+    "decade": 1900,
+    "average_earthquakes": 14
+  },
+  {
+    "state": "UT",
+    "decade": 1910,
+    "average_earthquakes": 35
+  },
+  {
+    "state": "UT",
+    "decade": 1920,
+    "average_earthquakes": 18
+  },
+  {
+    "state": "UT",
+    "decade": 1930,
+    "average_earthquakes": 213
+  },
+  {
+    "state": "UT",
+    "decade": 1940,
+    "average_earthquakes": 73
+  },
+  {
+    "state": "UT",
+    "decade": 1950,
+    "average_earthquakes": 354
+  },
+  {
+    "state": "UT",
+    "decade": 1960,
+    "average_earthquakes": 603
+  },
+  {
+    "state": "UT",
+    "decade": 1970,
+    "average_earthquakes": 318
+  },
+  {
+    "state": "UT",
+    "decade": 1980,
+    "average_earthquakes": 206
+  },
+  {
+    "state": "HI",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "HI",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "HI",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "HI",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "HI",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "HI",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "HI",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "HI",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "HI",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "HI",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "HI",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "HI",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "HI",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "HI",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "HI",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "HI",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "HI",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "HI",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "HI",
+    "decade": 1860,
+    "average_earthquakes": 15
+  },
+  {
+    "state": "HI",
+    "decade": 1870,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "HI",
+    "decade": 1880,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "HI",
+    "decade": 1890,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "HI",
+    "decade": 1900,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "HI",
+    "decade": 1910,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "HI",
+    "decade": 1920,
+    "average_earthquakes": 7
+  },
+  {
+    "state": "HI",
+    "decade": 1930,
+    "average_earthquakes": 119
+  },
+  {
+    "state": "HI",
+    "decade": 1940,
+    "average_earthquakes": 41
+  },
+  {
+    "state": "HI",
+    "decade": 1950,
+    "average_earthquakes": 157
+  },
+  {
+    "state": "HI",
+    "decade": 1960,
+    "average_earthquakes": 1469
+  },
+  {
+    "state": "HI",
+    "decade": 1970,
+    "average_earthquakes": 2382
+  },
+  {
+    "state": "HI",
+    "decade": 1980,
+    "average_earthquakes": 1241
+  },
+  {
+    "state": "KS",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KS",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KS",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KS",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KS",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KS",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KS",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KS",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KS",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KS",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KS",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KS",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KS",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KS",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KS",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KS",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KS",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KS",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "KS",
+    "decade": 1860,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "KS",
+    "decade": 1870,
+    "average_earthquakes": 7
+  },
+  {
+    "state": "KS",
+    "decade": 1880,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "KS",
+    "decade": 1890,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "KS",
+    "decade": 1900,
+    "average_earthquakes": 10
+  },
+  {
+    "state": "KS",
+    "decade": 1910,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "KS",
+    "decade": 1920,
+    "average_earthquakes": 46
+  },
+  {
+    "state": "KS",
+    "decade": 1930,
+    "average_earthquakes": 134
+  },
+  {
+    "state": "KS",
+    "decade": 1940,
+    "average_earthquakes": 20
+  },
+  {
+    "state": "KS",
+    "decade": 1950,
+    "average_earthquakes": 51
+  },
+  {
+    "state": "KS",
+    "decade": 1960,
+    "average_earthquakes": 59
+  },
+  {
+    "state": "KS",
+    "decade": 1970,
+    "average_earthquakes": 17
+  },
+  {
+    "state": "KS",
+    "decade": 1980,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "MT",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MT",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MT",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MT",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MT",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MT",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MT",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MT",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MT",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MT",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MT",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MT",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MT",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MT",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MT",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MT",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MT",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MT",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MT",
+    "decade": 1860,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "MT",
+    "decade": 1870,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "MT",
+    "decade": 1880,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MT",
+    "decade": 1890,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "MT",
+    "decade": 1900,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "MT",
+    "decade": 1910,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "MT",
+    "decade": 1920,
+    "average_earthquakes": 89
+  },
+  {
+    "state": "MT",
+    "decade": 1930,
+    "average_earthquakes": 641
+  },
+  {
+    "state": "MT",
+    "decade": 1940,
+    "average_earthquakes": 864
+  },
+  {
+    "state": "MT",
+    "decade": 1950,
+    "average_earthquakes": 870
+  },
+  {
+    "state": "MT",
+    "decade": 1960,
+    "average_earthquakes": 783
+  },
+  {
+    "state": "MT",
+    "decade": 1970,
+    "average_earthquakes": 547
+  },
+  {
+    "state": "MT",
+    "decade": 1980,
+    "average_earthquakes": 634
+  },
+  {
+    "state": "NE",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NE",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NE",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NE",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NE",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NE",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NE",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NE",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NE",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NE",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NE",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NE",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NE",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NE",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NE",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NE",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NE",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NE",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NE",
+    "decade": 1860,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "NE",
+    "decade": 1870,
+    "average_earthquakes": 8
+  },
+  {
+    "state": "NE",
+    "decade": 1880,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NE",
+    "decade": 1890,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NE",
+    "decade": 1900,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "NE",
+    "decade": 1910,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "NE",
+    "decade": 1920,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NE",
+    "decade": 1930,
+    "average_earthquakes": 85
+  },
+  {
+    "state": "NE",
+    "decade": 1940,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NE",
+    "decade": 1950,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "NE",
+    "decade": 1960,
+    "average_earthquakes": 49
+  },
+  {
+    "state": "NE",
+    "decade": 1970,
+    "average_earthquakes": 30
+  },
+  {
+    "state": "NE",
+    "decade": 1980,
+    "average_earthquakes": 104
+  },
+  {
+    "state": "NJ",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NJ",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NJ",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NJ",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NJ",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NJ",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NJ",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NJ",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NJ",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NJ",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NJ",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NJ",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NJ",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NJ",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NJ",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NJ",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NJ",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NJ",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NJ",
+    "decade": 1860,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "NJ",
+    "decade": 1870,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "NJ",
+    "decade": 1880,
+    "average_earthquakes": 34
+  },
+  {
+    "state": "NJ",
+    "decade": 1890,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "NJ",
+    "decade": 1900,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NJ",
+    "decade": 1910,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NJ",
+    "decade": 1920,
+    "average_earthquakes": 56
+  },
+  {
+    "state": "NJ",
+    "decade": 1930,
+    "average_earthquakes": 208
+  },
+  {
+    "state": "NJ",
+    "decade": 1940,
+    "average_earthquakes": 22
+  },
+  {
+    "state": "NJ",
+    "decade": 1950,
+    "average_earthquakes": 39
+  },
+  {
+    "state": "NJ",
+    "decade": 1960,
+    "average_earthquakes": 8
+  },
+  {
+    "state": "NJ",
+    "decade": 1970,
+    "average_earthquakes": 265
+  },
+  {
+    "state": "NJ",
+    "decade": 1980,
+    "average_earthquakes": 346
+  },
+  {
+    "state": "NM",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NM",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NM",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NM",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NM",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NM",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NM",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NM",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NM",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NM",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NM",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NM",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NM",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NM",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NM",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NM",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NM",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NM",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NM",
+    "decade": 1860,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "NM",
+    "decade": 1870,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NM",
+    "decade": 1880,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "NM",
+    "decade": 1890,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "NM",
+    "decade": 1900,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "NM",
+    "decade": 1910,
+    "average_earthquakes": 18
+  },
+  {
+    "state": "NM",
+    "decade": 1920,
+    "average_earthquakes": 18
+  },
+  {
+    "state": "NM",
+    "decade": 1930,
+    "average_earthquakes": 75
+  },
+  {
+    "state": "NM",
+    "decade": 1940,
+    "average_earthquakes": 72
+  },
+  {
+    "state": "NM",
+    "decade": 1950,
+    "average_earthquakes": 11
+  },
+  {
+    "state": "NM",
+    "decade": 1960,
+    "average_earthquakes": 132
+  },
+  {
+    "state": "NM",
+    "decade": 1970,
+    "average_earthquakes": 146
+  },
+  {
+    "state": "NM",
+    "decade": 1980,
+    "average_earthquakes": 54
+  },
+  {
+    "state": "NV",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NV",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NV",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NV",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NV",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NV",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NV",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NV",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NV",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NV",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NV",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NV",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NV",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NV",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NV",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NV",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NV",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NV",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "NV",
+    "decade": 1860,
+    "average_earthquakes": 9
+  },
+  {
+    "state": "NV",
+    "decade": 1870,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "NV",
+    "decade": 1880,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "NV",
+    "decade": 1890,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "NV",
+    "decade": 1900,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "NV",
+    "decade": 1910,
+    "average_earthquakes": 50
+  },
+  {
+    "state": "NV",
+    "decade": 1920,
+    "average_earthquakes": 10
+  },
+  {
+    "state": "NV",
+    "decade": 1930,
+    "average_earthquakes": 633
+  },
+  {
+    "state": "NV",
+    "decade": 1940,
+    "average_earthquakes": 321
+  },
+  {
+    "state": "NV",
+    "decade": 1950,
+    "average_earthquakes": 972
+  },
+  {
+    "state": "NV",
+    "decade": 1960,
+    "average_earthquakes": 484
+  },
+  {
+    "state": "NV",
+    "decade": 1970,
+    "average_earthquakes": 201
+  },
+  {
+    "state": "NV",
+    "decade": 1980,
+    "average_earthquakes": 329
+  },
+  {
+    "state": "VT",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VT",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VT",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VT",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VT",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VT",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VT",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VT",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VT",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VT",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VT",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VT",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VT",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VT",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VT",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VT",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VT",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VT",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VT",
+    "decade": 1860,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "VT",
+    "decade": 1870,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "VT",
+    "decade": 1880,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "VT",
+    "decade": 1890,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "VT",
+    "decade": 1900,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "VT",
+    "decade": 1910,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "VT",
+    "decade": 1920,
+    "average_earthquakes": 35
+  },
+  {
+    "state": "VT",
+    "decade": 1930,
+    "average_earthquakes": 131
+  },
+  {
+    "state": "VT",
+    "decade": 1940,
+    "average_earthquakes": 72
+  },
+  {
+    "state": "VT",
+    "decade": 1950,
+    "average_earthquakes": 64
+  },
+  {
+    "state": "VT",
+    "decade": 1960,
+    "average_earthquakes": 101
+  },
+  {
+    "state": "VT",
+    "decade": 1970,
+    "average_earthquakes": 209
+  },
+  {
+    "state": "VT",
+    "decade": 1980,
+    "average_earthquakes": 555
+  },
+  {
+    "state": "FL",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "FL",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "FL",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "FL",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "FL",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "FL",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "FL",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "FL",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "FL",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "FL",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "FL",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "FL",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "FL",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "FL",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "FL",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "FL",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "FL",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "FL",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "FL",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "FL",
+    "decade": 1870,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "FL",
+    "decade": 1880,
+    "average_earthquakes": 59
+  },
+  {
+    "state": "FL",
+    "decade": 1890,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "FL",
+    "decade": 1900,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "FL",
+    "decade": 1910,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "FL",
+    "decade": 1920,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "FL",
+    "decade": 1930,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "FL",
+    "decade": 1940,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "FL",
+    "decade": 1950,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "FL",
+    "decade": 1960,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "FL",
+    "decade": 1970,
+    "average_earthquakes": 51
+  },
+  {
+    "state": "FL",
+    "decade": 1980,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MI",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MI",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MI",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MI",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MI",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MI",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MI",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MI",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MI",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MI",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MI",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MI",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MI",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MI",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MI",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MI",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MI",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MI",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MI",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MI",
+    "decade": 1870,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "MI",
+    "decade": 1880,
+    "average_earthquakes": 24
+  },
+  {
+    "state": "MI",
+    "decade": 1890,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MI",
+    "decade": 1900,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "MI",
+    "decade": 1910,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MI",
+    "decade": 1920,
+    "average_earthquakes": 22
+  },
+  {
+    "state": "MI",
+    "decade": 1930,
+    "average_earthquakes": 215
+  },
+  {
+    "state": "MI",
+    "decade": 1940,
+    "average_earthquakes": 77
+  },
+  {
+    "state": "MI",
+    "decade": 1950,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "MI",
+    "decade": 1960,
+    "average_earthquakes": 26
+  },
+  {
+    "state": "MI",
+    "decade": 1970,
+    "average_earthquakes": 27
+  },
+  {
+    "state": "MI",
+    "decade": 1980,
+    "average_earthquakes": 45
+  },
+  {
+    "state": "ND",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ND",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ND",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ND",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ND",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ND",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ND",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ND",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ND",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ND",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ND",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ND",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ND",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ND",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ND",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ND",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ND",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ND",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ND",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ND",
+    "decade": 1870,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "ND",
+    "decade": 1880,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ND",
+    "decade": 1890,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ND",
+    "decade": 1900,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "ND",
+    "decade": 1910,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ND",
+    "decade": 1920,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "ND",
+    "decade": 1930,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ND",
+    "decade": 1940,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ND",
+    "decade": 1950,
+    "average_earthquakes": 31
+  },
+  {
+    "state": "ND",
+    "decade": 1960,
+    "average_earthquakes": 11
+  },
+  {
+    "state": "ND",
+    "decade": 1970,
+    "average_earthquakes": 42
+  },
+  {
+    "state": "ND",
+    "decade": 1980,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "OR",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OR",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OR",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OR",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OR",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OR",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OR",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OR",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OR",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OR",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OR",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OR",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OR",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OR",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OR",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OR",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OR",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OR",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OR",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OR",
+    "decade": 1870,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "OR",
+    "decade": 1880,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "OR",
+    "decade": 1890,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "OR",
+    "decade": 1900,
+    "average_earthquakes": 7
+  },
+  {
+    "state": "OR",
+    "decade": 1910,
+    "average_earthquakes": 8
+  },
+  {
+    "state": "OR",
+    "decade": 1920,
+    "average_earthquakes": 32
+  },
+  {
+    "state": "OR",
+    "decade": 1930,
+    "average_earthquakes": 249
+  },
+  {
+    "state": "OR",
+    "decade": 1940,
+    "average_earthquakes": 544
+  },
+  {
+    "state": "OR",
+    "decade": 1950,
+    "average_earthquakes": 374
+  },
+  {
+    "state": "OR",
+    "decade": 1960,
+    "average_earthquakes": 831
+  },
+  {
+    "state": "OR",
+    "decade": 1970,
+    "average_earthquakes": 85
+  },
+  {
+    "state": "OR",
+    "decade": 1980,
+    "average_earthquakes": 346
+  },
+  {
+    "state": "RI",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "RI",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "RI",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "RI",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "RI",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "RI",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "RI",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "RI",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "RI",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "RI",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "RI",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "RI",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "RI",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "RI",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "RI",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "RI",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "RI",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "RI",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "RI",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "RI",
+    "decade": 1870,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "RI",
+    "decade": 1880,
+    "average_earthquakes": 6
+  },
+  {
+    "state": "RI",
+    "decade": 1890,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "RI",
+    "decade": 1900,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "RI",
+    "decade": 1910,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "RI",
+    "decade": 1920,
+    "average_earthquakes": 15
+  },
+  {
+    "state": "RI",
+    "decade": 1930,
+    "average_earthquakes": 10
+  },
+  {
+    "state": "RI",
+    "decade": 1940,
+    "average_earthquakes": 15
+  },
+  {
+    "state": "RI",
+    "decade": 1950,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "RI",
+    "decade": 1960,
+    "average_earthquakes": 23
+  },
+  {
+    "state": "RI",
+    "decade": 1970,
+    "average_earthquakes": 28
+  },
+  {
+    "state": "RI",
+    "decade": 1980,
+    "average_earthquakes": 52
+  },
+  {
+    "state": "SD",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SD",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SD",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SD",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SD",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SD",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SD",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SD",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SD",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SD",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SD",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SD",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SD",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SD",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SD",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SD",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SD",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SD",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SD",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SD",
+    "decade": 1870,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "SD",
+    "decade": 1880,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "SD",
+    "decade": 1890,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "SD",
+    "decade": 1900,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "SD",
+    "decade": 1910,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "SD",
+    "decade": 1920,
+    "average_earthquakes": 11
+  },
+  {
+    "state": "SD",
+    "decade": 1930,
+    "average_earthquakes": 33
+  },
+  {
+    "state": "SD",
+    "decade": 1940,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "SD",
+    "decade": 1950,
+    "average_earthquakes": 18
+  },
+  {
+    "state": "SD",
+    "decade": 1960,
+    "average_earthquakes": 84
+  },
+  {
+    "state": "SD",
+    "decade": 1970,
+    "average_earthquakes": 58
+  },
+  {
+    "state": "SD",
+    "decade": 1980,
+    "average_earthquakes": 166
+  },
+  {
+    "state": "CO",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CO",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CO",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CO",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CO",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CO",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CO",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CO",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CO",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CO",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CO",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CO",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CO",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CO",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CO",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CO",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CO",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CO",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CO",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CO",
+    "decade": 1870,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CO",
+    "decade": 1880,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "CO",
+    "decade": 1890,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CO",
+    "decade": 1900,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "CO",
+    "decade": 1910,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "CO",
+    "decade": 1920,
+    "average_earthquakes": 15
+  },
+  {
+    "state": "CO",
+    "decade": 1930,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "CO",
+    "decade": 1940,
+    "average_earthquakes": 69
+  },
+  {
+    "state": "CO",
+    "decade": 1950,
+    "average_earthquakes": 42
+  },
+  {
+    "state": "CO",
+    "decade": 1960,
+    "average_earthquakes": 1281
+  },
+  {
+    "state": "CO",
+    "decade": 1970,
+    "average_earthquakes": 96
+  },
+  {
+    "state": "CO",
+    "decade": 1980,
+    "average_earthquakes": 230
+  },
+  {
+    "state": "ID",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ID",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ID",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ID",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ID",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ID",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ID",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ID",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ID",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ID",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ID",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ID",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ID",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ID",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ID",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ID",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ID",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ID",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ID",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ID",
+    "decade": 1870,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "ID",
+    "decade": 1880,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "ID",
+    "decade": 1890,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "ID",
+    "decade": 1900,
+    "average_earthquakes": 5
+  },
+  {
+    "state": "ID",
+    "decade": 1910,
+    "average_earthquakes": 18
+  },
+  {
+    "state": "ID",
+    "decade": 1920,
+    "average_earthquakes": 50
+  },
+  {
+    "state": "ID",
+    "decade": 1930,
+    "average_earthquakes": 308
+  },
+  {
+    "state": "ID",
+    "decade": 1940,
+    "average_earthquakes": 541
+  },
+  {
+    "state": "ID",
+    "decade": 1950,
+    "average_earthquakes": 395
+  },
+  {
+    "state": "ID",
+    "decade": 1960,
+    "average_earthquakes": 409
+  },
+  {
+    "state": "ID",
+    "decade": 1970,
+    "average_earthquakes": 231
+  },
+  {
+    "state": "ID",
+    "decade": 1980,
+    "average_earthquakes": 594
+  },
+  {
+    "state": "MN",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MN",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MN",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MN",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MN",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MN",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MN",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MN",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MN",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MN",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MN",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MN",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MN",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MN",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MN",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MN",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MN",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MN",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MN",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MN",
+    "decade": 1870,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MN",
+    "decade": 1880,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "MN",
+    "decade": 1890,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MN",
+    "decade": 1900,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "MN",
+    "decade": 1910,
+    "average_earthquakes": 31
+  },
+  {
+    "state": "MN",
+    "decade": 1920,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "MN",
+    "decade": 1930,
+    "average_earthquakes": 43
+  },
+  {
+    "state": "MN",
+    "decade": 1940,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MN",
+    "decade": 1950,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "MN",
+    "decade": 1960,
+    "average_earthquakes": 6
+  },
+  {
+    "state": "MN",
+    "decade": 1970,
+    "average_earthquakes": 166
+  },
+  {
+    "state": "MN",
+    "decade": 1980,
+    "average_earthquakes": 11
+  },
+  {
+    "state": "OK",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OK",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OK",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OK",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OK",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OK",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OK",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OK",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OK",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OK",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OK",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OK",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OK",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OK",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OK",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OK",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OK",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OK",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OK",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OK",
+    "decade": 1870,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OK",
+    "decade": 1880,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "OK",
+    "decade": 1890,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OK",
+    "decade": 1900,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "OK",
+    "decade": 1910,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "OK",
+    "decade": 1920,
+    "average_earthquakes": 34
+  },
+  {
+    "state": "OK",
+    "decade": 1930,
+    "average_earthquakes": 24
+  },
+  {
+    "state": "OK",
+    "decade": 1940,
+    "average_earthquakes": 11
+  },
+  {
+    "state": "OK",
+    "decade": 1950,
+    "average_earthquakes": 258
+  },
+  {
+    "state": "OK",
+    "decade": 1960,
+    "average_earthquakes": 44
+  },
+  {
+    "state": "OK",
+    "decade": 1970,
+    "average_earthquakes": 82
+  },
+  {
+    "state": "OK",
+    "decade": 1980,
+    "average_earthquakes": 34
+  },
+  {
+    "state": "TX",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TX",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TX",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TX",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TX",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TX",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TX",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TX",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TX",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TX",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TX",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TX",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TX",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TX",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TX",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TX",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TX",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TX",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TX",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TX",
+    "decade": 1870,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TX",
+    "decade": 1880,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "TX",
+    "decade": 1890,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "TX",
+    "decade": 1900,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "TX",
+    "decade": 1910,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "TX",
+    "decade": 1920,
+    "average_earthquakes": 24
+  },
+  {
+    "state": "TX",
+    "decade": 1930,
+    "average_earthquakes": 230
+  },
+  {
+    "state": "TX",
+    "decade": 1940,
+    "average_earthquakes": 31
+  },
+  {
+    "state": "TX",
+    "decade": 1950,
+    "average_earthquakes": 58
+  },
+  {
+    "state": "TX",
+    "decade": 1960,
+    "average_earthquakes": 38
+  },
+  {
+    "state": "TX",
+    "decade": 1970,
+    "average_earthquakes": 107
+  },
+  {
+    "state": "TX",
+    "decade": 1980,
+    "average_earthquakes": 42
+  },
+  {
+    "state": "WI",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WI",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WI",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WI",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WI",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WI",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WI",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WI",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WI",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WI",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WI",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WI",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WI",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WI",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WI",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WI",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WI",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WI",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WI",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WI",
+    "decade": 1870,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WI",
+    "decade": 1880,
+    "average_earthquakes": 23
+  },
+  {
+    "state": "WI",
+    "decade": 1890,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WI",
+    "decade": 1900,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "WI",
+    "decade": 1910,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "WI",
+    "decade": 1920,
+    "average_earthquakes": 9
+  },
+  {
+    "state": "WI",
+    "decade": 1930,
+    "average_earthquakes": 126
+  },
+  {
+    "state": "WI",
+    "decade": 1940,
+    "average_earthquakes": 4
+  },
+  {
+    "state": "WI",
+    "decade": 1950,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WI",
+    "decade": 1960,
+    "average_earthquakes": 13
+  },
+  {
+    "state": "WI",
+    "decade": 1970,
+    "average_earthquakes": 192
+  },
+  {
+    "state": "WI",
+    "decade": 1980,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "WY",
+    "decade": 1630,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WY",
+    "decade": 1640,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WY",
+    "decade": 1650,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WY",
+    "decade": 1660,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WY",
+    "decade": 1720,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WY",
+    "decade": 1730,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WY",
+    "decade": 1740,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WY",
+    "decade": 1750,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WY",
+    "decade": 1760,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WY",
+    "decade": 1770,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WY",
+    "decade": 1780,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WY",
+    "decade": 1790,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WY",
+    "decade": 1800,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WY",
+    "decade": 1810,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WY",
+    "decade": 1820,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WY",
+    "decade": 1830,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WY",
+    "decade": 1840,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WY",
+    "decade": 1850,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WY",
+    "decade": 1860,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WY",
+    "decade": 1870,
+    "average_earthquakes": 0
+  },
+  {
+    "state": "WY",
+    "decade": 1880,
+    "average_earthquakes": 3
+  },
+  {
+    "state": "WY",
+    "decade": 1890,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "WY",
+    "decade": 1900,
+    "average_earthquakes": 1
+  },
+  {
+    "state": "WY",
+    "decade": 1910,
+    "average_earthquakes": 2
+  },
+  {
+    "state": "WY",
+    "decade": 1920,
+    "average_earthquakes": 43
+  },
+  {
+    "state": "WY",
+    "decade": 1930,
+    "average_earthquakes": 110
+  },
+  {
+    "state": "WY",
+    "decade": 1940,
+    "average_earthquakes": 45
+  },
+  {
+    "state": "WY",
+    "decade": 1950,
+    "average_earthquakes": 285
+  },
+  {
+    "state": "WY",
+    "decade": 1960,
+    "average_earthquakes": 123
+  },
+  {
+    "state": "WY",
+    "decade": 1970,
+    "average_earthquakes": 224
+  },
+  {
+    "state": "WY",
+    "decade": 1980,
+    "average_earthquakes": 454
+  }
+]
