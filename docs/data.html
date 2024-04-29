@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>YOUR PROJECT TITLE - 2&nbsp; Data</title>
+<title>Earthquake Visualisation - 2&nbsp; Data</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -89,9 +123,9 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">YOUR PROJECT TITLE</a> 
+      <a href="./">Earthquake Visualisation</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/YOUR_GITHUB_ACCOUNT/REPO_NAME" rel="" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/emurungi/EarthquakeVis2" rel="" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
 </div>
     </div>
       </div>
@@ -142,10 +176,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description"><span class="header-section-number">2.1</span> Description</a></li>
-  <li><a href="#missing-value-analysis" id="toc-missing-value-analysis" class="nav-link" data-scroll-target="#missing-value-analysis"><span class="header-section-number">2.2</span> Missing value analysis</a></li>
+  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description"><span class="header-section-number">2.1</span> Description</a>
+  <ul class="collapse">
+  <li><a href="#overview-of-data-source-1" id="toc-overview-of-data-source-1" class="nav-link" data-scroll-target="#overview-of-data-source-1"><span class="header-section-number">2.1.1</span> Overview of data source 1:</a></li>
+  <li><a href="#overview-of-data-source-2" id="toc-overview-of-data-source-2" class="nav-link" data-scroll-target="#overview-of-data-source-2"><span class="header-section-number">2.1.2</span> Overview of data source 2:</a></li>
+  </ul></li>
+  <li><a href="#research-plan" id="toc-research-plan" class="nav-link" data-scroll-target="#research-plan"><span class="header-section-number">2.2</span> Research Plan</a></li>
+  <li><a href="#missing-value-analysis" id="toc-missing-value-analysis" class="nav-link" data-scroll-target="#missing-value-analysis"><span class="header-section-number">2.3</span> Missing value analysis</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/YOUR_GITHUB_ACCOUNT/REPO_NAME/edit/main/data.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/YOUR_GITHUB_ACCOUNT/REPO_NAME/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/emurungi/EarthquakeVis2/edit/main/data.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/emurungi/EarthquakeVis2/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -169,9 +208,170 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="description" class="level2" data-number="2.1">
 <h2 data-number="2.1" class="anchored" data-anchor-id="description"><span class="header-section-number">2.1</span> Description</h2>
+<section id="overview-of-data-source-1" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="overview-of-data-source-1"><span class="header-section-number">2.1.1</span> Overview of data source 1:</h3>
+<p>With these questions in mind, the bulk of our work will use the USGS earthquake data set <a href="https://earthquake.usgs.gov/earthquakes/map/?extent=-88.12198,-194.76563&amp;extent=88.12198,554.76563&amp;range=search&amp;listOnlyShown=true&amp;baseLayer=terrain&amp;timeZone=utc&amp;search=%7B%22name%22:%22Search%20Results%22,%22params%22:%7B%22starttime%22:%221900-01-01%2000:00:00%22,%22minmagnitude%22:7,%22orderby%22:%22time%22%7D%7D">here</a>. This is because this data set contains an abundance of information about earthquakes including but not limited to: latitude, longitude, depth,time, place etc. You can find a legend of the full dataset <a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php">here</a>. Diving into the actual data set itself, each row represents one earthquake that occurred on a particular day/time. The information within the time field is extremely granular (to the exact second) and therefore if no other fields can be joined between this table and another, we can opt to join on time/day.&nbsp;</p>
+<p>While the data appears to be clean overall, there are some drawbacks. For one, the ‘place’ attribute appears to have an unorthodox format. In other words, it is not does not have a consistent format. While some fields include only the name of the actual region where the earthquake occurred, others include the kilometer information. This makes it hard to join on this dataset on the field ‘place.’</p>
+<p>This data is very reputable as it comes from national agencies. To be specific, this source (USGS) is part of the National Earthquake Hazards Reduction Program, which is led by the National Institute of Standards and Technologies. Their goals align with the goals of our project:</p>
+<ol type="1">
+<li><p>Improve earthquake hazard identification and risk assessment methods and their use;</p></li>
+<li><p>Maintain and improve comprehensive earthquake monitoring in the United States with focus on “real-time” systems in urban areas;</p></li>
+<li><p>Improve the understanding of earthquakes occurrence and their effects and consequences<br>
+</p></li>
+</ol>
 </section>
-<section id="missing-value-analysis" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="missing-value-analysis"><span class="header-section-number">2.2</span> Missing value analysis</h2>
+<section id="overview-of-data-source-2" class="level3" data-number="2.1.2">
+<h3 data-number="2.1.2" class="anchored" data-anchor-id="overview-of-data-source-2"><span class="header-section-number">2.1.2</span> Overview of data source 2:</h3>
+<p>To answer the question regarding Demographics, we’ll need a dataset that describes the populations of each area in question.To make things simpler, we will focus on states as areas.<br>
+</p>
+<p>The data will describe the population in each state within the USA from 2010 to 2019. We’ve limited the scope of the years as we believe we would otherwise have too much information. This data set can be accessed <a href="https://www.census.gov/data/datasets/time-series/demo/popest/2010s-state-total.html">here</a>. The data set is pretty straight forward, containing&nbsp; a state and its populations from 2010 to 2019. It was presented by the United States Census Bureau— an entity that aims to serve as the nation’s leading provider of quality data about its people and the economy.&nbsp;</p>
+<p>Note this data set will solely be used to find the populations of each state. The point here is that we can then leverage another table from USGS which displays the earthquakes per state. We can then join the population and earthquake table on state and time yielding a new table that contains the earthquakes per state and year. Furthermore this provides a powerful tool, we can not only see the distribution of earthquakes per state, but also how this distribution has changed over time.</p>
+</section>
+</section>
+<section id="research-plan" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="research-plan"><span class="header-section-number">2.2</span> Research Plan</h2>
+<p>The primary dataset is of earthquakes of magnitude 7+ from the USGS Earthquakes Hazards Lists and Maps. With this data, we seek to answer each research question using the following aspects of the data.</p>
+<ol type="1">
+<li><p><strong>What is the distribution of earthquakes on land versus in the ocean?</strong></p>
+<p>Leveraging the <code>latitude</code> and <code>longitude</code> columns for epicenter location, we can use the <code>sf</code> package to categorize earthquakes as occurring on land or in the ocean. This additional column aids in examining the distribution of earthquakes over time and facilitates visualizing differences in magnitudes through a comparative boxplot for land and ocean locations.</p></li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li><p><strong>Are there discernible patterns in the time series of earthquakes, indicating seasonality or other temporal trends?</strong></p>
+<p>Using the <code>time</code> column, which spans from 1905 to 2023 and includes UTC time up to the millisecond level of occurrence, we can plot major earthquakes against their respective time. Our goal is to identify any seasonality in the data, determine which year experienced the highest frequency of major earthquakes, and explore monthly patterns in earthquake occurrences.</p></li>
+<li><p><strong>How close do earthquakes occur to population and city centers?</strong></p>
+<p>Similar to our inquiry about proximity to fault lines, we aim to investigate the relationship between earthquake occurrence and population centers in the U.S. To achieve this, we will merge two datasets based on cities – one containing population data as of 2023 and the other detailing earthquakes by city in the United States. We anticipate exploring trends at both the national and state levels, with the hope of uncovering any correlations or trends, such as a potential negative correlation between earthquake occurrence and population size.</p></li>
+</ol>
+</section>
+<section id="missing-value-analysis" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="missing-value-analysis"><span class="header-section-number">2.3</span> Missing value analysis</h2>
+<ol type="1">
+<li>From the USGS Earthquakes Hazards Lists, we note that this data contains all Magnitude 7+ earthquakes that occurred in the world from 1900. The graph below shows the number of missing columns in our data. Given that we will only be using <code>latitude</code>,<code>longitude</code>, and <code>mag</code>, our dataset of interest has no missing values.</li>
+</ol>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#install.packages("remotes")</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">#remotes::install_github("jtr13/redav")</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(plyr)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyr)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tibble)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(forcats)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(stringr)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(sf)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(opencage)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(redav)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(grid)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tmap)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>  usgs_eq_list <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">'data/query.csv'</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  df_n_missing <span class="ot">&lt;-</span> <span class="fu">colSums</span>(<span class="fu">is.na</span>(usgs_eq_list)) <span class="sc">%&gt;%</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>      <span class="fu">sort</span>(<span class="at">decreasing =</span> <span class="cn">TRUE</span>) <span class="sc">%&gt;%</span> <span class="fu">as.data.frame</span>()</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">colnames</span>(df_n_missing) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">'n'</span>)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  df_n_missing <span class="ot">&lt;-</span> <span class="fu">rownames_to_column</span>(df_n_missing, <span class="st">"column"</span>)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  df_n_missing<span class="sc">$</span>column <span class="ot">&lt;-</span> <span class="fu">fct_reorder</span>(df_n_missing<span class="sc">$</span>column, df_n_missing<span class="sc">$</span>n, <span class="at">.desc =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  df_n_missing <span class="sc">%&gt;%</span> </span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="fu">ggplot</span>() <span class="sc">+</span> </span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_col</span>(<span class="fu">aes</span>(<span class="at">x=</span><span class="fu">fct_reorder</span>(column, n, <span class="at">.desc =</span> <span class="cn">TRUE</span>), <span class="at">y=</span>n)) <span class="sc">+</span> </span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme_bw</span>() <span class="sc">+</span> </span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">90</span>, <span class="at">vjust =</span> <span class="fl">0.5</span>, <span class="at">hjust=</span><span class="dv">1</span>)) <span class="sc">+</span> </span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    <span class="fu">xlab</span>(<span class="st">'column'</span>) <span class="sc">+</span> </span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    <span class="fu">ylab</span>(<span class="st">'Number of Missing Values'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<p><img src="data_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<ol start="2" type="1">
+<li>From the USGS Earthquakes by State List, the earthquake table does not actually have the name of the states within it - rather only their longitude and latitude. To get state names, we merge a shape file containing US State Boundaries as of 2018 produced by the United States Census Bureau with the earthquake data. We plot the map of earthquakes that are outside of the contiguous United States below which are depicted as null values. These arise as missing data due to the structure of the shape file geometries as the earthquakes occur outside the predefined geometries, and so do not contain a state name. These are useful as we can see they occur near the coasts of California, Alaska, Hawaii, and Canada.</li>
+</ol>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>    us_earthquake_data <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">'data/eqint_tsqp.xlsx'</span>)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    us_earthquake_data_long_lats <span class="ot">&lt;-</span> us_earthquake_data</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    earthquake_sf <span class="ot">&lt;-</span> <span class="fu">st_as_sf</span>(us_earthquake_data_long_lats <span class="sc">%&gt;%</span> <span class="fu">drop_na</span>(LONGITUDE, LATITUDE), <span class="at">coords =</span> <span class="fu">c</span>(<span class="st">"LONGITUDE"</span>, <span class="st">"LATITUDE"</span>), <span class="at">crs =</span> <span class="dv">4326</span>)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    earthquake_sf <span class="ot">&lt;-</span> <span class="fu">st_set_crs</span>(earthquake_sf, <span class="dv">4326</span>)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    us_states <span class="ot">&lt;-</span> <span class="fu">st_read</span>(<span class="st">"data/state_boundaries/cb_2018_us_state_20m.shp"</span>, <span class="at">quiet=</span><span class="cn">TRUE</span>)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    us_states <span class="ot">&lt;-</span> <span class="fu">st_transform</span>(us_states, <span class="dv">4326</span>)</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    earthquakes_by_state <span class="ot">&lt;-</span> <span class="fu">st_join</span>(<span class="fu">st_set_crs</span>(earthquake_sf, <span class="dv">4326</span>), </span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>                                    us_states, </span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>                                    <span class="at">join =</span> st_within)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>    contiguous_us <span class="ot">&lt;-</span> us_states <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="sc">!</span>(NAME <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Hawaii"</span>, <span class="st">"Puerto Rico"</span>, <span class="st">"Alaska"</span>)))</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    hawaii <span class="ot">&lt;-</span> us_states <span class="sc">%&gt;%</span> <span class="fu">filter</span>(NAME <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Hawaii"</span>))</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    puerto_rico <span class="ot">&lt;-</span> us_states <span class="sc">%&gt;%</span> <span class="fu">filter</span>(NAME <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Puerto Rico"</span>))</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    alaska <span class="ot">&lt;-</span> us_states <span class="sc">%&gt;%</span> <span class="fu">filter</span>(NAME <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Alaska"</span>))</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>                                          </span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">tm_shape</span>(contiguous_us <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">col=</span><span class="dv">1</span>), <span class="at">projection=</span><span class="dv">2163</span>) <span class="sc">+</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>        <span class="fu">tm_polygons</span>(<span class="st">"col"</span>, <span class="at">border.col =</span> <span class="st">"grey50"</span>, <span class="at">border.alpha =</span> .<span class="dv">5</span>, <span class="at">title =</span> <span class="st">""</span>, <span class="at">showNA =</span> <span class="cn">TRUE</span>) <span class="sc">+</span>  </span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>      <span class="fu">tm_shape</span>(earthquakes_by_state <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="fu">is.na</span>(NAME))) <span class="sc">+</span> </span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>      <span class="fu">tm_symbols</span>(<span class="at">col =</span> <span class="st">"red"</span>, <span class="at">size=</span><span class="fl">0.1</span>) <span class="sc">+</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>      <span class="fu">tm_layout</span>(<span class="st">"Earthquakes outside The United States from 1852-2023"</span>, <span class="at">title.position =</span> <span class="fu">c</span>(<span class="st">"center"</span>, <span class="st">"top"</span>), <span class="at">title.size =</span> <span class="dv">2</span>, <span class="at">frame =</span> <span class="cn">FALSE</span>, <span class="at">legend.show =</span> <span class="cn">FALSE</span>, <span class="at">inner.margins =</span> <span class="fu">c</span>(<span class="fl">0.1</span>, <span class="fl">0.1</span>, <span class="fl">0.05</span>, <span class="fl">0.05</span>))</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    m_AK <span class="ot">&lt;-</span> <span class="fu">tm_shape</span>(alaska <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">col=</span><span class="dv">1</span>), <span class="at">projection =</span> <span class="dv">3338</span>) <span class="sc">+</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>      <span class="fu">tm_polygons</span>(<span class="st">"col"</span>, <span class="at">border.col =</span> <span class="st">"grey50"</span>, <span class="at">border.alpha =</span> .<span class="dv">5</span>, <span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">10</span>, <span class="dv">50</span>, <span class="at">by =</span> <span class="dv">5</span>)) <span class="sc">+</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>      <span class="fu">tm_layout</span>(<span class="st">"Alaska"</span>, <span class="at">legend.show =</span> <span class="cn">FALSE</span>, <span class="at">bg.color =</span> <span class="cn">NA</span>, <span class="at">title.size =</span> <span class="fl">1.5</span>, <span class="at">frame =</span> <span class="cn">TRUE</span>) <span class="sc">+</span>  </span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>      <span class="fu">tm_shape</span>(earthquakes_by_state <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="fu">is.na</span>(NAME))) <span class="sc">+</span> </span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>      <span class="fu">tm_symbols</span>(<span class="at">col =</span> <span class="st">"red"</span>, <span class="at">size=</span><span class="fl">0.1</span>)</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    m_Hawaii <span class="ot">&lt;-</span> <span class="fu">tm_shape</span>(hawaii <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">col=</span><span class="dv">1</span>), <span class="at">projection =</span> <span class="dv">3759</span>) <span class="sc">+</span></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>      <span class="fu">tm_polygons</span>(<span class="st">"col"</span>, <span class="at">border.col =</span> <span class="st">"grey50"</span>, <span class="at">border.alpha =</span> .<span class="dv">5</span>, <span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">10</span>, <span class="dv">50</span>, <span class="at">by =</span> <span class="dv">5</span>)) <span class="sc">+</span></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>      <span class="fu">tm_layout</span>(<span class="st">"Hawaii"</span>, <span class="at">legend.show =</span> <span class="cn">FALSE</span>, <span class="at">bg.color =</span> <span class="cn">NA</span>, <span class="at">title.size =</span> <span class="fl">1.5</span>, <span class="at">frame =</span> <span class="cn">TRUE</span>) <span class="sc">+</span>  </span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>      <span class="fu">tm_shape</span>(earthquakes_by_state <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="fu">is.na</span>(NAME))) <span class="sc">+</span> </span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>      <span class="fu">tm_symbols</span>(<span class="at">col =</span> <span class="st">"red"</span>, <span class="at">size=</span><span class="fl">0.1</span>)</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>    m_Puerto_Rico <span class="ot">&lt;-</span> <span class="fu">tm_shape</span>(puerto_rico <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">col=</span><span class="dv">1</span>), <span class="at">projection =</span> <span class="dv">3338</span>) <span class="sc">+</span></span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>      <span class="fu">tm_polygons</span>(<span class="st">"col"</span>, <span class="at">border.col =</span> <span class="st">"grey50"</span>, <span class="at">border.alpha =</span> .<span class="dv">5</span>, <span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">10</span>, <span class="dv">50</span>, <span class="at">by =</span> <span class="dv">5</span>)) <span class="sc">+</span></span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>      <span class="fu">tm_layout</span>(<span class="st">"Puerto Rico"</span>, <span class="at">legend.show =</span> <span class="cn">FALSE</span>, <span class="at">bg.color =</span> <span class="cn">NA</span>, <span class="at">title.size =</span> <span class="fl">1.5</span>, <span class="at">frame =</span> <span class="cn">TRUE</span>) <span class="sc">+</span>  </span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>      <span class="fu">tm_shape</span>(earthquakes_by_state <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="fu">is.na</span>(NAME))) <span class="sc">+</span> </span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>      <span class="fu">tm_symbols</span>(<span class="at">col =</span> <span class="st">"red"</span>, <span class="at">size=</span><span class="fl">0.1</span>)</span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>    <span class="fu">print</span>(m_AK, <span class="at">vp=</span><span class="fu">viewport</span>(<span class="at">x=</span> <span class="fl">0.15</span>, <span class="at">y=</span> <span class="fl">0.1</span>, <span class="at">width=</span> <span class="fl">0.3</span>, <span class="at">height=</span> <span class="fl">0.3</span>))</span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>    <span class="fu">print</span>(m_Hawaii, <span class="at">vp=</span><span class="fu">viewport</span>(<span class="at">x=</span> <span class="fl">0.8</span>, <span class="at">y=</span> <span class="fl">0.1</span>, <span class="at">width=</span> <span class="fl">0.2</span>, <span class="at">height=</span> <span class="fl">0.2</span>))</span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>    <span class="fu">print</span>(m_Puerto_Rico, <span class="at">vp=</span><span class="fu">viewport</span>(<span class="at">x=</span> <span class="fl">0.6</span>, <span class="at">y=</span> <span class="fl">0.1</span>, <span class="at">width=</span> <span class="fl">0.2</span>, <span class="at">height=</span> <span class="fl">0.2</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<p><img src="data_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>We’ve decided to drop these records as they only comprise 15% of our data, and are not significantly detracting from our purpose of analyzing population vs earthquakes.</p>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>    earthquakes_by_state_df <span class="ot">&lt;-</span> earthquakes_by_state <span class="sc">%&gt;%</span> <span class="fu">st_drop_geometry</span>()</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    earthquakes_by_state_df <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">State_Label =</span> <span class="fu">ifelse</span>(<span class="fu">is.na</span>(NAME), <span class="st">"Null State Name"</span>, <span class="st">'Contains State Name'</span>), <span class="at">earthquake=</span><span class="st">"earthquake"</span>) <span class="sc">%&gt;%</span> <span class="fu">ggplot</span>() <span class="sc">+</span> <span class="fu">geom_bar</span>(<span class="fu">aes</span>(<span class="at">x=</span>earthquake, <span class="at">fill=</span>State_Label), <span class="at">position=</span><span class="st">"stack"</span>) <span class="sc">+</span> <span class="fu">xlab</span>(<span class="cn">NULL</span>) <span class="sc">+</span> <span class="fu">ylab</span>(<span class="st">"Count"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<p><img src="data_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<ol start="3" type="1">
+<li>Finally, for the population data, after some pre-cleaning on the Excel file, we note that there are no missing values for the years available between 2010-2019</li>
+</ol>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>    population_data <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">'data/nst-est2019-01.xlsx'</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    population_data <span class="ot">&lt;-</span> population_data <span class="sc">%&gt;%</span> <span class="fu">pivot_longer</span>(<span class="at">cols=</span><span class="sc">!</span><span class="st">`</span><span class="at">Geographic Area</span><span class="st">`</span>, <span class="at">names_to =</span> <span class="st">"Year"</span>, <span class="at">values_to =</span> <span class="st">"population"</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">plot_missing</span>(population_data, <span class="at">percent=</span><span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<p><img src="data_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
 
 
 </section>

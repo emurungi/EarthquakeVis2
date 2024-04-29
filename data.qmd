@@ -2,4 +2,155 @@
 
 ## Description
 
+### Overview of data source 1:
+
+With these questions in mind, the bulk of our work will use the USGS earthquake data set [here](https://earthquake.usgs.gov/earthquakes/map/?extent=-88.12198,-194.76563&extent=88.12198,554.76563&range=search&listOnlyShown=true&baseLayer=terrain&timeZone=utc&search=%7B%22name%22:%22Search%20Results%22,%22params%22:%7B%22starttime%22:%221900-01-01%2000:00:00%22,%22minmagnitude%22:7,%22orderby%22:%22time%22%7D%7D). This is because this data set contains an abundance of information about earthquakes including but not limited to: latitude, longitude, depth,time, place etc. You can find a legend of the full dataset [here](https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php). Diving into the actual data set itself, each row represents one earthquake that occurred on a particular day/time. The information within the time field is extremely granular (to the exact second) and therefore if no other fields can be joined between this table and another, we can opt to join on time/day. 
+
+While the data appears to be clean overall, there are some drawbacks. For one, the 'place' attribute appears to have an unorthodox format. In other words, it is not does not have a consistent format. While some fields include only the name of the actual region where the earthquake occurred, others include the kilometer information. This makes it hard to join on this dataset on the field 'place.'
+
+This data is very reputable as it comes from national agencies. To be specific, this source (USGS) is part of the National Earthquake Hazards Reduction Program, which is led by the National Institute of Standards and Technologies. Their goals align with the goals of our project:
+
+1.  Improve earthquake hazard identification and risk assessment methods and their use;
+
+2.  Maintain and improve comprehensive earthquake monitoring in the United States with focus on "real-time" systems in urban areas;
+
+3.  Improve the understanding of earthquakes occurrence and their effects and consequences\
+
+### Overview of data source 2:
+
+To answer the question regarding Demographics, we'll need a dataset that describes the populations of each area in question.To make things simpler, we will focus on states as areas.\
+
+The data will describe the population in each state within the USA from 2010 to 2019. We've limited the scope of the years as we believe we would otherwise have too much information. This data set can be accessed [here](https://www.census.gov/data/datasets/time-series/demo/popest/2010s-state-total.html). The data set is pretty straight forward, containing  a state and its populations from 2010 to 2019. It was presented by the United States Census Bureau--- an entity that aims to serve as the nation's leading provider of quality data about its people and the economy. 
+
+Note this data set will solely be used to find the populations of each state. The point here is that we can then leverage another table from USGS which displays the earthquakes per state. We can then join the population and earthquake table on state and time yielding a new table that contains the earthquakes per state and year. Furthermore this provides a powerful tool, we can not only see the distribution of earthquakes per state, but also how this distribution has changed over time.
+
+## Research Plan
+
+The primary dataset is of earthquakes of magnitude 7+ from the USGS Earthquakes Hazards Lists and Maps. With this data, we seek to answer each research question using the following aspects of the data.
+
+1.  **What is the distribution of earthquakes on land versus in the ocean?**
+
+    Leveraging the `latitude` and `longitude` columns for epicenter location, we can use the `sf` package to categorize earthquakes as occurring on land or in the ocean. This additional column aids in examining the distribution of earthquakes over time and facilitates visualizing differences in magnitudes through a comparative boxplot for land and ocean locations.
+
+<!-- -->
+
+2.  **Are there discernible patterns in the time series of earthquakes, indicating seasonality or other temporal trends?**
+
+    Using the `time` column, which spans from 1905 to 2023 and includes UTC time up to the millisecond level of occurrence, we can plot major earthquakes against their respective time. Our goal is to identify any seasonality in the data, determine which year experienced the highest frequency of major earthquakes, and explore monthly patterns in earthquake occurrences.
+
+3.  **How close do earthquakes occur to population and city centers?**
+
+    Similar to our inquiry about proximity to fault lines, we aim to investigate the relationship between earthquake occurrence and population centers in the U.S. To achieve this, we will merge two datasets based on cities -- one containing population data as of 2023 and the other detailing earthquakes by city in the United States. We anticipate exploring trends at both the national and state levels, with the hope of uncovering any correlations or trends, such as a potential negative correlation between earthquake occurrence and population size.
+
 ## Missing value analysis
+
+1.  From the USGS Earthquakes Hazards Lists, we note that this data contains all Magnitude 7+ earthquakes that occurred in the world from 1900. The graph below shows the number of missing columns in our data. Given that we will only be using `latitude`,`longitude`, and `mag`, our dataset of interest has no missing values.
+
+```{r}
+#| label: load-packages
+#| warning: false
+
+#install.packages("remotes")
+#remotes::install_github("jtr13/redav")
+library(plyr)
+library(dplyr)
+library(tidyr)
+library(tibble)
+library(ggplot2)
+library(forcats)
+library(readxl)
+library(tidyverse)
+library(stringr)
+library(sf)
+library(opencage)
+library(redav)
+library(grid)
+library(tmap)
+
+```
+
+```{r}
+  usgs_eq_list <- read.csv('data/query.csv')
+  df_n_missing <- colSums(is.na(usgs_eq_list)) %>%
+      sort(decreasing = TRUE) %>% as.data.frame()
+  colnames(df_n_missing) <- c('n')
+  df_n_missing <- rownames_to_column(df_n_missing, "column")
+  df_n_missing$column <- fct_reorder(df_n_missing$column, df_n_missing$n, .desc = TRUE)
+  df_n_missing %>% 
+    ggplot() + 
+    geom_col(aes(x=fct_reorder(column, n, .desc = TRUE), y=n)) + 
+    theme_bw() + 
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + 
+    xlab('column') + 
+    ylab('Number of Missing Values')
+```
+
+2.  From the USGS Earthquakes by State List, the earthquake table does not actually have the name of the states within it - rather only their longitude and latitude. To get state names, we merge a shape file containing US State Boundaries as of 2018 produced by the United States Census Bureau with the earthquake data. We plot the map of earthquakes that are outside of the contiguous United States below which are depicted as null values. These arise as missing data due to the structure of the shape file geometries as the earthquakes occur outside the predefined geometries, and so do not contain a state name. These are useful as we can see they occur near the coasts of California, Alaska, Hawaii, and Canada.
+
+```{r}
+#| warning: false
+#| message: false
+    us_earthquake_data <- read_excel('data/eqint_tsqp.xlsx')
+    us_earthquake_data_long_lats <- us_earthquake_data
+    earthquake_sf <- st_as_sf(us_earthquake_data_long_lats %>% drop_na(LONGITUDE, LATITUDE), coords = c("LONGITUDE", "LATITUDE"), crs = 4326)
+    earthquake_sf <- st_set_crs(earthquake_sf, 4326)
+    us_states <- st_read("data/state_boundaries/cb_2018_us_state_20m.shp", quiet=TRUE)
+    us_states <- st_transform(us_states, 4326)
+    earthquakes_by_state <- st_join(st_set_crs(earthquake_sf, 4326), 
+                                    us_states, 
+                                    join = st_within)
+```
+
+```{r}
+#| warning: false
+#| message: false
+    contiguous_us <- us_states %>% filter(!(NAME %in% c("Hawaii", "Puerto Rico", "Alaska")))
+    hawaii <- us_states %>% filter(NAME %in% c("Hawaii"))
+    puerto_rico <- us_states %>% filter(NAME %in% c("Puerto Rico"))
+    alaska <- us_states %>% filter(NAME %in% c("Alaska"))
+                                          
+    tm_shape(contiguous_us %>% mutate(col=1), projection=2163) +
+        tm_polygons("col", border.col = "grey50", border.alpha = .5, title = "", showNA = TRUE) +  
+      tm_shape(earthquakes_by_state %>% filter(is.na(NAME))) + 
+      tm_symbols(col = "red", size=0.1) +
+      tm_layout("Earthquakes outside The United States from 1852-2023", title.position = c("center", "top"), title.size = 2, frame = FALSE, legend.show = FALSE, inner.margins = c(0.1, 0.1, 0.05, 0.05))
+
+    m_AK <- tm_shape(alaska %>% mutate(col=1), projection = 3338) +
+      tm_polygons("col", border.col = "grey50", border.alpha = .5, breaks = seq(10, 50, by = 5)) +
+      tm_layout("Alaska", legend.show = FALSE, bg.color = NA, title.size = 1.5, frame = TRUE) +  
+      tm_shape(earthquakes_by_state %>% filter(is.na(NAME))) + 
+      tm_symbols(col = "red", size=0.1)
+
+    m_Hawaii <- tm_shape(hawaii %>% mutate(col=1), projection = 3759) +
+      tm_polygons("col", border.col = "grey50", border.alpha = .5, breaks = seq(10, 50, by = 5)) +
+      tm_layout("Hawaii", legend.show = FALSE, bg.color = NA, title.size = 1.5, frame = TRUE) +  
+      tm_shape(earthquakes_by_state %>% filter(is.na(NAME))) + 
+      tm_symbols(col = "red", size=0.1)
+
+    m_Puerto_Rico <- tm_shape(puerto_rico %>% mutate(col=1), projection = 3338) +
+      tm_polygons("col", border.col = "grey50", border.alpha = .5, breaks = seq(10, 50, by = 5)) +
+      tm_layout("Puerto Rico", legend.show = FALSE, bg.color = NA, title.size = 1.5, frame = TRUE) +  
+      tm_shape(earthquakes_by_state %>% filter(is.na(NAME))) + 
+      tm_symbols(col = "red", size=0.1)
+
+    print(m_AK, vp=viewport(x= 0.15, y= 0.1, width= 0.3, height= 0.3))
+    print(m_Hawaii, vp=viewport(x= 0.8, y= 0.1, width= 0.2, height= 0.2))
+    print(m_Puerto_Rico, vp=viewport(x= 0.6, y= 0.1, width= 0.2, height= 0.2))
+```
+
+We've decided to drop these records as they only comprise 15% of our data, and are not significantly detracting from our purpose of analyzing population vs earthquakes.
+
+```{r}
+#| warning: false
+#| message: false
+    earthquakes_by_state_df <- earthquakes_by_state %>% st_drop_geometry()
+    earthquakes_by_state_df %>% mutate(State_Label = ifelse(is.na(NAME), "Null State Name", 'Contains State Name'), earthquake="earthquake") %>% ggplot() + geom_bar(aes(x=earthquake, fill=State_Label), position="stack") + xlab(NULL) + ylab("Count")
+```
+
+3.  Finally, for the population data, after some pre-cleaning on the Excel file, we note that there are no missing values for the years available between 2010-2019
+
+```{r}
+    population_data <- read_excel('data/nst-est2019-01.xlsx')
+    population_data <- population_data %>% pivot_longer(cols=!`Geographic Area`, names_to = "Year", values_to = "population")
+    plot_missing(population_data, percent=FALSE)
+```
