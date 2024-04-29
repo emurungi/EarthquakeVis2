@@ -1,1 +1,37 @@
 # Introduction
+
+Earthquakes have an indelible impact on individuals, communities, and societies, transcending borders and leaving lasting impressions on the affected regions. The catastrophic consequences of seismic events are vividly exemplified by the earthquake that struck Haiti on January 12, 2010, with a magnitude of 7.0. This devastating quake not only caused widespread destruction of infrastructure but also claimed the lives of over 230,000 people, displacing more than 1.5 million residents. The impoverished nation faced formidable challenges in the aftermath, struggling to provide adequate healthcare, shelter, and basic necessities for the affected population. Additionally, the economic repercussions of such disasters often place a significant burden on regions already grappling with limited resources.
+
+The unfortunate reality is that earthquakes are inherently difficult to predict. However, the wealth of available data on seismic activities enables the identification of trends and the drawing of conclusions with a high degree of certainty. Despite the unpredictable nature of earthquakes, our motivation behind this project is to delve into their causes, exploring where they occur most frequently, both geographically and in populous cities, as well as identifying patterns related to their occurrence over time.
+
+Our aim is threefold: firstly, to inform individuals about potential areas to avoid when considering relocation, thereby minimizing their risk of exposure to earthquakes; secondly, to provide valuable information to tourists traveling to high-risk areas, enabling them to plan their trips during periods when earthquakes are less likely to occur; and thirdly, to equip policymakers in densely populated areas with crucial insights into the level of earthquake risk they face.
+
+To articulate our research questions more specifically, our project will focus on three main areas:
+
+
+**Geographical Elements:**
+
+\- What is the distribution of earthquakes on land versus in the ocean?(US Data)
+\- What is the distribution of earthquakes with respect to fault lines?
+
+
+
+**Time Elements:**
+
+\- Are there discernible patterns in the time series of earthquakes, indicating seasonality or other temporal trends? (US Data)
+\- We will break this down into earthquakes over differrent months, as well as over different years. (US Data)
+
+**Demographic Elements:**
+
+\- How close do earthquakes occur to population and US city centers?(US Data)
+(Note we are using US city centers as states due to the lack of datasets in other countries).(US Data)
+
+
+
+**Severity of damage:**
+
+\- What is the distribution of magnitudes for earthquakes over time?(US Data)
+
+
+
+Moreover, our research will draw on data from various sources, including demographic information at the state level and indicators of ocean presence. As we embark on this endeavor, we recognize the importance of understanding not only the devastation caused by earthquakes but also the potential for proactive measures that can mitigate their impact on society. In the ever-evolving landscape of earthquake research, our project seeks to contribute valuable insights that go beyond immediate crisis response, aiming to inform long-term strategies for risk reduction and resilience building on a global scale.
