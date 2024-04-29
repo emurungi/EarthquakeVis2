@@ -1,4 +1,4 @@
-d3.json("https://raw.githubusercontent.com/aa221/EDAV-EARTHQUAKES-PROJECT/main/earthquake_data.json").then(function(data) {
+d3.json("https://raw.githubusercontent.com/emurungi/EarthquakeVis2/main/earthquake_data.json").then(function(data) {
   const margin = { top: 30, right: 30, bottom: 50, left: 50 };
   const width = 800 - margin.left - margin.right;
   const height = 600 - margin.top - margin.bottom;
