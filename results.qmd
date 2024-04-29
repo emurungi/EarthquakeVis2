@@ -1,1 +1,533 @@
 # Results
+
+
+```{r}
+#| label: load-packages
+#| warning: false
+#| echo: false
+library(ggplot2)
+library(forcats)
+library(janitor)
+library(openxlsx)
+library(tidyr)
+library(stringr)
+library(httr)
+library(jsonlite)
+library(forcats)
+library(sf)
+library(spData)
+library(purrr)
+library(purrr)
+library(ggpubr)
+library(plyr)
+library(dplyr)
+library(vcd)
+```
+
+```{r}
+#| echo: false
+## state and earthquakes table
+state_earthquakes <- read.csv("data/earthquakes_by_state.csv")
+state_pop <- read.xlsx("data/pop_data.xlsx")
+```
+
+
+```{r}
+#| warning: false
+#| message: false
+#| echo: false
+
+# The third row has the column names
+
+
+state_pop <- state_pop %>%
+  row_to_names(row_number = 3) %>%
+  clean_names()
+
+colnames(state_pop)[1] = 'State'
+
+state_pop <- state_pop %>% 
+  slice(6:(nrow(state_pop)-5) ) %>% 
+  mutate(State = substring(State, 2)) %>% 
+  select(-2) %>% 
+  mutate(across(.cols = 2:ncol(.), .fns = as.numeric)) %>% 
+  tibble() 
+```
+
+
+```{r}
+#| echo: false
+
+# state_pop
+```
+
+
+
+
+
+```{r}
+#| echo: false
+
+# (fivenum(state_earthquakes$YEAR))
+```
+
+```{r}
+# Pivot the table so we have one row per year and state
+#| echo: false
+
+population_per_state <- state_pop %>%
+  pivot_longer(cols = starts_with("x"),
+               names_to = "year",
+               values_to = "population") %>%
+  arrange(State, year)
+
+# Display the updated data frame
+# population_per_state
+```
+
+```{r}
+#| echo: false
+
+# Remove the 'x' and '.'
+population_per_state <- population_per_state %>%
+  mutate(year = as.numeric(str_remove(year, "x")))
+
+# population_per_state
+```
+
+```{r}
+#| echo: false
+
+state_earthquakes_selected <- state_earthquakes %>%
+  select(NAME,MAGNITUDE)
+```
+
+## Exploration of Earthquakes By US State
+The conclusions drawn from this section will be focused on U.S. State specific data, with the datasets from earthquakes between 1638-1985
+
+
+```{r,fig.width=10, fig.height=5}
+#| echo: false
+
+# Group by state, calculate the average magnitude across all years
+
+
+# Assuming your data frame is named 'your_data'
+
+# Drop rows with NA values
+state_earthquakes_selected_cleaned <- na.omit(state_earthquakes_selected)
+
+# Select one row per state, grouping by and getting the average
+one_per_state  <- state_earthquakes_selected_cleaned %>% mutate(col_a = 1) %>% select(state = NAME, magnitude=MAGNITUDE) %>% group_by(state) %>% summarise(magnitude=mean(magnitude))
+
+
+
+ggplot(one_per_state, aes(x = magnitude)) +
+  geom_bar(stat = "identity", aes(y=fct_reorder(state, magnitude)),fill = "skyblue") +
+  labs( x =  "Average Magnitude", y = "State") +
+  theme_minimal() + 
+  labs(title="Average Magnitude Per State for 1638-1985")
+
+```
+As we can see, the average magnitude of earth quakes is highest in Idaho This is interesting because it seems as though the highest magnitutde earthquakes occur on the west coast. Nevada, Utah, Washington are  also all on the west coast, which brings up the argument that states on the west coast are more impacted by Earthquakes, in terms of how strong they are. There could be an argument that these states have a higher population than others so we will verify that soon.
+
+
+
+```{r, fig.width=15, fig.height=5}
+#| warning: false
+#| message: false
+#| echo: false
+
+p1 <- state_earthquakes %>% mutate(DECADE_START = YEAR - YEAR %% 10) %>% 
+  drop_na(MAGNITUDE) %>% 
+  group_by(DECADE_START, YEAR, MONTH, DAY, STATE) %>% 
+  summarise(MAGNITUDE=mean(MAGNITUDE)) %>% 
+  ungroup() %>% 
+  mutate(YEAR = as.factor(YEAR), DECADE_START = as.factor(DECADE_START)) %>% 
+  ggplot() + 
+  geom_boxplot(aes(y=MAGNITUDE, x=DECADE_START), varwidth = TRUE, outlier.size = 0.1, fill="red", alpha=0.5) + 
+  theme_linedraw() + 
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
+  labs(title='Distribution of Magnitude by Decade') + xlab('Decade') + ylab('Magnitude')
+
+p2 <- state_earthquakes %>% mutate(DECADE_START = YEAR - YEAR %% 10) %>%
+    drop_na(MAGNITUDE) %>% 
+    group_by(YEAR, MONTH, DAY, NAME) %>% 
+    summarise(MAGNITUDE=mean(MAGNITUDE)) %>% 
+    ungroup() %>% 
+    mutate(YEAR = as.factor(YEAR)) %>% 
+    ggplot() + 
+    geom_boxplot(aes(y=MAGNITUDE, x=reorder(NAME, -MAGNITUDE, length, decreasing=TRUE)), 
+                 varwidth = TRUE, outlier.size = 0.1, fill="red", alpha=0.5) + 
+    theme_linedraw() + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) + 
+  labs(title='Distribution of Magnitude by State') + xlab('State') + ylab('Magnitude')
+
+ggpubr::ggarrange(plotlist = list(p1,p2), widths = c(1,1.5))
+```
+The plot above shows the distribution of earthquakes throughout the years. As we can see, the earthquakes initially all shared the same distribution with respect to magnitude, and eventually grew enormously in range and variance. This makes sense as the decades progressed the technology of detection did too and therefore the measurements became more accurate. Turning to the figure on the bottom, we're able to see that California is the most variable state in terms of Magntitude of earthquakes. This makes sense because it is the largest state in America and thus naturally have the most variable earthquakes. The plot on the right also displays how the N.A (unkown state) has a large proportion of earthquakes in the dataset. This is the result of the earthquakes being in the ocean which would be difficult to attribute to one particular state.
+
+
+```{r}
+#| echo: false
+
+## use the population from the most recent year
+newest_year_pop <- population_per_state %>% 
+  filter(year == max(year)) %>%
+  select(-year)  # Drop the 'year' column
+
+
+
+
+# newest_year_pop
+
+
+```
+
+```{r}
+#| echo: false
+
+library(dplyr)
+
+
+# Perform left join for population and state. 
+population_state <- left_join(newest_year_pop, state_earthquakes_selected_cleaned, by = c("State" = "NAME"))
+# population_state
+```
+
+
+
+
+```{r}
+#| echo: false
+
+## Cleaning the table
+
+counts_and_average_mag <- population_state %>%
+  group_by(State) %>%
+  summarise(Count = n(), Average_Magnitude = mean(MAGNITUDE, na.rm = TRUE))
+
+
+
+# counts_and_average_mag <- counts_and_average_mag[-1, ]
+
+## remove rows with numbers
+rows_with_numbers <- grep("\\d", counts_and_average_mag$State)
+
+# Remove rows with numbers
+if(length(rows_with_numbers)>0){
+  counts_and_average_mag <- counts_and_average_mag[-rows_with_numbers, ]
+}
+
+
+# Identify rows with ":" in the "State" column
+rows_with_colon <- grepl(":", counts_and_average_mag$State)
+
+# Remove rows with ":"
+counts_and_average_mag <- counts_and_average_mag[!rows_with_colon, ]
+# counts_and_average_mag
+
+
+```
+
+
+
+
+
+```{r,fig.width=50, fig.height=5}
+#| warning: false
+#| message: false
+#| echo: false
+
+# Install and load the plotly library if not already installed
+# install.packages("plotly")
+# Install and load the plotly library if not already installed
+# install.packages("plotly")
+library(plotly)
+
+state_plot_data <- state_earthquakes %>% 
+  mutate(DECADE_START = YEAR - YEAR %% 50) %>% 
+  mutate(DECADE_START = as.factor(DECADE_START)) %>% 
+  select(DECADE_START, YEAR, MONTH, NAME) %>% 
+  left_join(newest_year_pop, by = c("NAME" = "State" )) %>% 
+  group_by(DECADE_START, NAME) %>%
+  summarise(Count = n()) %>% 
+  drop_na(NAME) %>% 
+  mutate(NAME = fct_rev(fct_reorder(NAME, Count, .fun = sum, .desc = TRUE))) %>% 
+  ungroup()
+  
+name_ordering <- state_plot_data %>% 
+  group_by(NAME) %>%  
+  mutate(DECADE_START=as.numeric(as.character(DECADE_START))) %>%  
+  filter(DECADE_START == max(DECADE_START)) %>% 
+  ungroup() %>% 
+  arrange(desc(Count)) %>% 
+  mutate(NAME=as.character(NAME)) %>% 
+  pull(NAME)
+state_plot_data_1 <- state_plot_data %>% 
+  left_join(state_plot_data %>% 
+              group_by(NAME) %>% 
+              summarise(Count = sum(Count)) %>% 
+              ungroup() %>% 
+              arrange(desc(Count)) %>% 
+              mutate(cgroup = cut(Count, 4, breaks = fivenum(Count), labels = c(1, 2, 3, 4))) %>% 
+              select(NAME, cgroup),
+            by=c("NAME"="NAME")) %>% 
+  mutate(cgroup = if_else(NAME == "California", "CA", cgroup)) %>% 
+  mutate(NAME = factor(NAME, levels = name_ordering)) %>% 
+  arrange(NAME)
+state_plot <-  state_plot_data_1 %>%  ggplot() +
+  geom_point(aes(x = Count, y = fct_rev(NAME), col = DECADE_START)) +
+  labs(title = "Earthquake Count Per State for  1638-1985", x = "Earthquake Count", y = "State") +
+  theme_linedraw() + 
+  facet_wrap(~cgroup, ncol = 1, scales = "free") + 
+  scale_color_brewer(palette = "Blues")
+
+# Convert ggplot to plotly and adjust width
+state_plotly <- ggplotly(state_plot, width = 800, height = 700)  # Adjust the width as needed
+
+# Display the interactive plot
+state_plotly
+
+
+
+```
+The way we can interpret this plot is by realizing that each chart represents the quintile of state's average number of earthquakes, with California isolated. The points represent the counts for a given state and the half-century that the earthquakes that occured. This Clevland dot plot, therefore, allows us to see the distribution of earthquake counts across states and years. We can see that California Largely exceeds all other states for the later decades. Large in part we can also see that later decades have a higher earthquake count. This was a finding consistent with our other charts above. Additionally, California only starts being much higher than the other states in the 1900s onwards, and this behavior is similar across quintiles. 
+
+
+
+
+```{r}
+#| warning: false
+#| message: false
+#| echo: false
+
+library(ggplot2)
+
+# Assuming your data frame is named 'earthquake_data'
+# Create a line plot of earthquake counts grouped by month
+us_eq_data <- state_earthquakes %>% rename(month=MONTH, year=YEAR)
+ggplot(us_eq_data, aes(x = month)) +
+  geom_line(stat = "count", color = "blue") +
+  labs(title = "Earthquake Counts by Month from 1638 to 1985",
+       x = "Month",
+       y = "Count") +
+  scale_x_continuous(breaks = 1:12, labels = month.abb) +
+  theme_minimal()
+
+```
+We also would like to see the seasonality of earthquakes in the above graph, which shows a bimodal distribution of earthquakes in April and November. This is really interesting, and prompting us to check whether there is seasonality  over the years. 
+
+```{r}
+#| echo: false
+
+library(ggplot2)
+
+library(dplyr)
+
+# Assuming your data frame is named 'us_eq_data'
+
+# Filter the data to include only years after 1700
+filtered_data <- us_eq_data %>%
+  filter(year > 1700)
+
+# Create a histogram of earthquake counts over the years
+histogram_plot <- ggplot(filtered_data, aes(x = year)) +
+  geom_histogram(binwidth = 1, fill = "red", color = "black") +
+  labs(title = "Earthquake Frequencies from 1700 to 2023",
+       x = "Year",
+       y = "Frequency") +
+  theme_minimal()
+
+# Display the histogram
+print(histogram_plot)
+
+
+
+```
+This plot displays the distribution of earthquakes from 1700 to 2023. As you can see, overtime, the frequencies increased which makes sense as measurement and systemic capturing of earthquakes improved.
+
+
+```{r}
+counts_pop_ <- population_state %>%
+  group_by(State) %>%
+  summarise(Count = n(),Average_Magnitude = mean(MAGNITUDE, na.rm = FALSE),the_population = mean(population, na.rm = FALSE))
+counts_pop_ <- counts_pop_[-1, ]
+
+## remove rows with numbers
+# counts_pop_
+```
+
+
+```{r}
+#| echo: false
+
+
+counts_pop_ <- population_state %>%
+  group_by(State) %>%
+  summarise(Count = n(), Average_Magnitude = mean(MAGNITUDE, na.rm = FALSE),the_population = mean(population, na.rm = FALSE))
+
+
+counts_pop_ <- counts_pop_[-1, ]
+
+## remove rows with numbers
+
+
+
+# Identify rows with ":" in the "State" column
+rows_with_colon <- grepl(":", counts_pop_$State)
+
+# Remove rows with ":"
+counts_pop_ <- counts_pop_[!rows_with_colon, ]
+
+
+counts_pop_$Count <- round(log(counts_pop_$Count))
+counts_pop_$the_population <- log(counts_pop_$the_population) ## took log so we can see it 
+# counts_pop_
+```
+
+
+
+
+```{r,fig.width=10, fig.height=5}
+#| warning: false
+#| message: false
+#| echo: false
+
+
+
+counts_pop_ <- na.omit(counts_pop_)
+
+# Create bins for Average_Magnitude
+counts_pop_$bins <- cut(counts_pop_$Average_Magnitude, breaks = c(0, 4, 11), labels = c("0-4", "5-11"))
+
+# Scatter plot with facets
+ggplot(counts_pop_, aes(x = the_population, y = Count)) +
+  geom_smooth(method = "lm", se = FALSE, col = "blue") +  # Add a line of best fit
+
+  geom_point() +
+  facet_wrap(~ bins, scales = "free") +
+  labs(title = "Scatter Plot of Current Population vs Frequency of Earthquakes with Binned Average Magnitude for 1638-1985",
+       x = "Population (LOG)", y = "Frequency of Earthquake (LOG)")
+
+```
+
+There is a slight positive correlation between states with a higher population and the frequency of which they have earthquakes. This is true for both high and low magnitude earthquakes. This result, furthermore, motivates the need for safety measures against earthquakes across populous areas. If they do not, then there can be severe consequences for areas that are dense, in the form of lives lost.  
+
+## Exploration of Global Earthquakes
+
+We plot a map of the global earthquakes over magnitude 4. We also plot a map of the fault lines to inspect if there is a relationship between the location of the earthquake and its magnitude.
+```{r,fig.width=10, fig.height=5}
+#| warning: false
+#| message: false
+#| echo: false
+# Attributed to: https://stackoverflow.com/questions/12995683/any-way-to-make-plot-points-in-scatterplot-more-transparent-in-r
+
+addTrans <- function(color,trans){
+
+  if (length(color)!=length(trans)&!any(c(length(color),length(trans))==1)) stop("Vector lengths not correct")
+  if (length(color)==1 & length(trans)>1) color <- rep(color,length(trans))
+  if (length(trans)==1 & length(color)>1) trans <- rep(trans,length(color))
+
+  num2hex <- function(x)
+  {
+    hex <- unlist(strsplit("0123456789ABCDEF",split=""))
+    return(paste(hex[(x-x%%16)/16+1],hex[x%%16+1],sep=""))
+  }
+  rgb <- rbind(col2rgb(color),trans)
+  res <- paste("#",apply(apply(rgb,2,num2hex),2,paste,collapse=""),sep="")
+  return(res)
+}
+
+usgs_eq_list <- read.csv('data/query.csv') %>%
+  tibble() %>%
+  separate(time, into = 'date', sep="T", extra = 'drop', remove = FALSE) %>%
+  mutate(date=as.Date(date))
+
+earthquakes_locations <- usgs_eq_list %>%
+  st_as_sf( coords=5:4, crs=4326)
+
+usgs_fault_lines <- st_read("data/global_fault_lines/gem_active_faults.shp", quiet=TRUE)
+usgs_fault_lines <- st_set_crs(usgs_fault_lines, 4326)
+
+## Find which points fall over land
+ii <- !is.na(as.numeric(st_intersects(earthquakes_locations, world)))
+
+plot(st_geometry(world), main="Global Earthquakes from 1900 to 1995 (Magnitude 4+)")
+earthquake_colors <- sapply(ii, function(x){if(x){"black"}else{"blue"}})
+# plot(earthquakes_locations, col=sapply(ii, function(x){if(x){"black"}else{"blue"}}), alpha=0.2, pch=16, add=TRUE, cex=0.5)
+eq_mag_cols <- earthquakes_locations %>% mutate(col_255 = 255*(mag - min(mag))/diff(range(mag)) ) %>% pull(col_255)
+plot(earthquakes_locations, col=addTrans(sapply(ii, function(x){if(x){"black"}else{"blue"}}), eq_mag_cols), pch=16, add=TRUE, cex=0.5)
+
+plot(st_geometry(usgs_fault_lines), col= rgb(red = 1, green = 0, blue = 0, alpha = 0.5), add=TRUE)
+legend(120, -65,
+     legend=c("Land","Water"),
+     col=c("black","blue"),
+     cex=0.5, pch=10, horiz=FALSE)
+```
+
+
+As we can see by inspection, most earthquakes occur near the fault lines. This makes sense as earthquakes are caused by movements of tectonic plates with the fault lines being the source of the interactions of the earthquakes. This plot is also colored by magnitude, and further shows how much low magnitude earthquakes occur away from the fault lines compared to near them. It's pretty clear that most occur on the coasts (where fault lines are most common) and thereby most occur on islands (near Singapore and the Philippines). However, land based earthquakes occur mostly across mountain ranges in the Andes, Himalayas, the East African Rift, the Alps and the Rockies on the Pacific coast.
+
+```{r}
+#| warning: false
+#| message: false
+#| echo: false
+
+mosaic_data_2 <- mutate(usgs_eq_list, Ocean = ii) %>% 
+  mutate(Location = ifelse(Ocean==TRUE, 'Ocean', 'Land')) %>% 
+  mutate(Magnitude_Type = ifelse(mag<6, 'Low Magnitude (4-6)', 'High Magnitude (6+)'))
+
+mosaic_data_2 %>% ungroup() %>% mutate(year = as.numeric(format(date,"%Y") )) %>% mutate(Decade = year - year %% 10) %>% mutate(year=as.factor(year), Decade = as.factor(Decade)) %>% ggplot() + geom_boxplot(aes(y=mag, x=Decade), varwidth = TRUE, outlier.size = 0.1, fill="red", alpha=0.5) + facet_wrap(~Location) + ylab("Magnitude") + 
+    theme_linedraw() + 
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+
+# mosaicplot(table(mosaic_data$Ocean, mosaic_data$horizontal_encode),
+#            main = "Mosaic Plot: Ocean vs. Horizontal Error Category", color = c("blue", "green"))
+```
+
+We plot a boxplot to examine earthquake magnitudes over time as well in land vs ocean. SImilar to the US state data, we see an inflection point in the number of earthquakes as shown by the widths of the boxplot, with the fewer land based earthquakes before 1970 being higher magnitude suggesting these are not recorded. We also see a downtrend in median earthquake magnitude suggesting measuring equipment capturing smaller earthquakes, as the distribution is largely similar across land and ocean.
+
+```{r}
+#| warning: false
+#| message: false
+#| echo: false
+
+mosaic_data <- mutate(usgs_eq_list, Ocean = ii) %>% mutate(Location = ifelse(Ocean==TRUE, 'Ocean', 'Land'))
+mosaic_data$Horizontal_Encoding <-  ifelse(is.na(mosaic_data$horizontalError), '0', 'More than 0')
+
+mosaic_data %>% 
+  mutate(Freq=1) %>% 
+  group_by(Horizontal_Encoding, Location) %>% 
+  summarise(Freq=sum(Freq)) %>% 
+  vcd::mosaic(Location ~ Horizontal_Encoding, 
+              ., 
+              direction=c("v", "h"), 
+              highlighting_fill = c( "green", "blue"))
+
+# mosaicplot(table(mosaic_data$Ocean, mosaic_data$horizontal_encode),
+#            main = "Mosaic Plot: Ocean vs. Horizontal Error Category", color = c("blue", "green"))
+```
+The Mosiac plot highlights two things. The first is that there are very few Earthquakes with a horizontal Error of more than 0. HorizontalError measures the uncertainties in an event's location, with an "unknown" value if the contributing seismic network does not supply uncertainty estimates (i.e. which we encode with a value of 0). With this said, for those with a horizontal error of more, they are predominantly located on the Ocean and highlighting an interesting dependence that earthquakes seismograph networks track ocean based earthquakes more than land based ones. 
+
+
+
+```{r}
+#| echo: false
+# joined_list <-  list()
+# for(i in 1:length(pts_split)){
+#   join_list <- pts_split[[i]] %>% cbind(tibble(distance_to_fault = dists[[i]]))
+#   joined_list[[i]] <- join_list
+# }
+# 
+# earthquakes_with_fault_distance <- bind_rows(joined_list)
+```
+
+```{r}
+# earthquakes_with_fault_distance %>% 
+#   ggplot() +
+#   geom_point(aes(x=distance_to_fault/1000, y=mag), alpha=0.3) +
+#   ggtitle("Distance To Fault vs Magnitude") + xlab("Distance to Nearest Fault (km)") +
+#   xlim(0,1000) +
+#   theme_classic()
+```
+
