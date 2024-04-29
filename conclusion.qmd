@@ -11,7 +11,7 @@ As a reminder we have attached our questions below, and will subsequently answer
 **Time Elements:**
 
 \- Are there discernible patterns in the time series of earthquakes, indicating seasonality or other temporal trends? (US Data)
-\- We will break this down into earthquakes over differrent months, as well as over different years. (US Data)
+\- We will break this down into earthquakes over different months, as well as over different years. (US Data)
 
 **Demographic Elements:**
 
