@@ -6,11 +6,10 @@ execute:
   echo: true
 
 book:
-  title: "YOUR PROJECT TITLE"
+  title: "Earthquake Visualisation"
   author:
-    - AUTHOR1 (UNI1)
-    - AUTHOR2 (UNI2)
-  repo-url: https://github.com/YOUR_GITHUB_ACCOUNT/REPO_NAME
+    - Emmanuel Murungi
+  repo-url: https://github.com/emurungi/EarthquakeVis2
   date: today
   page-footer:
     right: |
